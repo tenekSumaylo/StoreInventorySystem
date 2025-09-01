@@ -1,0 +1,8 @@
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.csproj.AssemblyReference.cache
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.AssemblyInfoInputs.cache
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.AssemblyInfo.cs
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.csproj.CoreCompileInputs.cache
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\obj\Debug\net9.0\inventory_backend.MvcApplicationPartsAssemblyInfo.cache
