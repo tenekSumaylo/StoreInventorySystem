@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\inventory_backend",
+    "\\inventory_backend\\Extensions",
+    "\\inventory_backend\\Extensions\\DbConfigurations"
+  ],
+  "SelectedNode": "\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+  "PreviewInSolutionExplorer": false
+}

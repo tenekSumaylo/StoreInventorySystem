@@ -13,6 +13,7 @@ namespace inventory_backend.Extensions.DbConfigurations
             productBuilder.Property(i => i.Brand).HasDefaultValue("N/A").IsRequired();
             productBuilder.Property(i => i.Price).IsRequired();
             productBuilder.Property(i => i.Stock).HasDefaultValue(0).IsRequired();
+            productBuilder.HasMany(i => i.Tags ).WithOne(i => i.Product ).HasForeignKey(i => i.Id);
         }
      }
 }

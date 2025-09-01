@@ -25,5 +25,7 @@ namespace inventory_backend.Models
         [Required]
         [Range(0, int.MaxValue)]
         public int Stock { get; set; }
+
+        public ICollection<ProductTag> Tags { get; set; } = [];
     }
 }
