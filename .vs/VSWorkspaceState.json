@@ -3,8 +3,9 @@
     "",
     "\\inventory_backend",
     "\\inventory_backend\\Extensions",
-    "\\inventory_backend\\Extensions\\DbConfigurations"
+    "\\inventory_backend\\Extensions\\DbConfigurations",
+    "\\inventory_backend\\Models"
   ],
-  "SelectedNode": "\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+  "SelectedNode": "\\inventory_backend\\Models\\Invoice.cs",
   "PreviewInSolutionExplorer": false
 }
