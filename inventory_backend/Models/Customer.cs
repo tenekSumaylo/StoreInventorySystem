@@ -26,6 +26,6 @@ namespace inventory_backend.Models
         [Required]
         public string Address { get; set; } = string.Empty;
 
-        public ICollection<Invoice> Invoices { get; set; } = [];
+        public ICollection<Invoice>? Invoices { get; set; } 
     }
 }

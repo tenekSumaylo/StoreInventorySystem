@@ -10,9 +10,10 @@ namespace inventory_backend.Models
         [Key]
         public int CustomerId { get; set; }
 
-        public Customer Customer { get; set; } = new();
+        public Customer? Customer { get; set; }
 
         [Required]
+        [Range(0, int.MaxValue)]
         public int Quantity { get; set; }
 
         [Required]
@@ -22,6 +23,6 @@ namespace inventory_backend.Models
         [Required]
         public DateOnly InvoiceDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
-        public ICollection<InvoiceItem> InvoiceItems { get; set; } = [];
+        public ICollection<InvoiceItem>? InvoiceItems { get; set; }
     }
 }

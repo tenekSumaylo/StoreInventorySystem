@@ -13,7 +13,7 @@ namespace inventory_backend.Models
         [Required]
         public string ProductName { get; set; } = string.Empty;
 
-        public Category? Category { get; set; } = new();
+        public Category? Category { get; set; }
 
         [Required]
         public string Brand { get; set; } = string.Empty;
@@ -26,6 +26,6 @@ namespace inventory_backend.Models
         [Range(0, int.MaxValue)]
         public int Stock { get; set; }
 
-        public ICollection<ProductTag> Tags { get; set; } = [];
+        public ICollection<ProductTag>? Tags { get; set; } 
     }
 }
