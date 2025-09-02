@@ -12,6 +12,7 @@ namespace inventory_backend.Extensions.DbConfigurations
             category.Property(i => i.Id).ValueGeneratedOnAdd();
             category.HasMany(i => i.Products).WithOne(d => d.Category).HasForeignKey(i => i.CategoryId);
             category.Property(i => i.Name).HasDefaultValue("N/A").HasMaxLength(100).IsRequired();
+            category.HasIndex(i => i.Name);
         }
     }
 }

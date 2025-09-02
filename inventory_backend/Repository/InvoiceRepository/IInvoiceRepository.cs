@@ -5,5 +5,6 @@ namespace inventory_backend.Repository.InvoiceRepository
 {
     public interface IInvoiceRepository : IGenericRepository<Invoice>
     {
+        Task<IEnumerable<Invoice>> GetAllByCustomer(int customerId);
     }
 }

@@ -1,17 +1,12 @@
 ﻿using inventory_backend.Data;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Abstractions;
-using System.Reflection.Metadata.Ecma335;
-
 
 namespace inventory_backend.Repository.GenericRepository
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        private readonly InventorySystemDbContext _systemDbContext;
-        private readonly DbSet<TEntity> _dbSet;
+        protected readonly InventorySystemDbContext _systemDbContext;
+        protected readonly DbSet<TEntity> _dbSet;
         public GenericRepository(InventorySystemDbContext _context)
         {
             _systemDbContext = _context;

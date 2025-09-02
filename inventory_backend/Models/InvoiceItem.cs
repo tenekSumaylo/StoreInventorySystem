@@ -15,6 +15,10 @@ namespace inventory_backend.Models
         [Required]
         public int ProductId { get; set; }
 
+        [Required]
+        [Range(0, int.MaxValue)]
+        public int Quantity { get; set; }
+
         [ForeignKey("ProductId")]
         public Product? Product { get; set; }
         [ForeignKey("InvoiceId")]

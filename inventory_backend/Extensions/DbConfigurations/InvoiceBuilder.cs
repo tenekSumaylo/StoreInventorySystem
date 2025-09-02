@@ -10,7 +10,7 @@ namespace inventory_backend.Extensions.DbConfigurations
         {
             modelBuilder.HasKey( x => x.Id );
             modelBuilder.HasMany(i => i.InvoiceItems).WithOne(i => i.Invoice).HasForeignKey(i => i.InvoiceId);
-            modelBuilder.Property(i => i.Quantity).HasDefaultValue(0).IsRequired();
+            modelBuilder.HasIndex(i => i.CustomerId);
         }
     }
 }

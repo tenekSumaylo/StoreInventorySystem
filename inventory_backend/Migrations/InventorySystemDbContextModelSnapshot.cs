@@ -39,6 +39,8 @@ namespace inventory_backend.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name");
+
                     b.ToTable("Categories");
                 });
 
@@ -95,11 +97,6 @@ namespace inventory_backend.Migrations
                     b.Property<DateOnly>("InvoiceDate")
                         .HasColumnType("date");
 
-                    b.Property<int>("Quantity")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
-
                     b.Property<double>("TotalAmount")
                         .HasColumnType("float");
 
@@ -123,6 +120,11 @@ namespace inventory_backend.Migrations
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
 
                     b.HasKey("Id");
 
