@@ -9,10 +9,10 @@ namespace inventory_backend.Extensions.DbConfigurations
         public static void Configure( this EntityTypeBuilder<Customer> modelBuilder )
         {
             modelBuilder.HasKey(i => i.Id);
-            modelBuilder.HasMany(i => i.Invoices).WithOne(i => i.Customer).HasForeignKey(i => i.CustomerId);
+            modelBuilder.Property(i => i.Id).ValueGeneratedOnAdd();
             modelBuilder.Property(i => i.Email).IsRequired();
-            modelBuilder.HasIndex(i => i.Email);
-            modelBuilder.HasIndex(i => i.Id);
+            modelBuilder.HasIndex(i => i.Email).IsUnique();
+            modelBuilder.HasIndex(i => i.Id).IsUnique();
             modelBuilder.HasIndex(i => i.FirstName);
         }
     }

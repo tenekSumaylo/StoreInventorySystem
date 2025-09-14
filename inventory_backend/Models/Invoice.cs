@@ -2,15 +2,11 @@
 
 namespace inventory_backend.Models
 {
-    public class Invoice
+    public class Invoice : Entity
     {
-        [Key]
-        public int Id { get; set; }
 
         [Key]
-        public int CustomerId { get; set; }
-
-        public Customer? Customer { get; set; }
+        public Guid CustomerId { get; set; }
 
         [Required]
         [Range(0, double.MaxValue)]

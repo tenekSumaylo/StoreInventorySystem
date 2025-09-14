@@ -1,9 +1,10 @@
 ﻿using inventory_backend.Data;
+using inventory_backend.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace inventory_backend.Repository.GenericRepository
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : Entity
     {
         protected readonly InventorySystemDbContext _systemDbContext;
         protected readonly DbSet<TEntity> _dbSet;
@@ -28,7 +29,7 @@ namespace inventory_backend.Repository.GenericRepository
             return false;
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<bool> Delete(Guid id)
         {
             var data = await _dbSet.FindAsync(id);
             if (data is not null && data is TEntity entity)
@@ -45,12 +46,10 @@ namespace inventory_backend.Repository.GenericRepository
             return await _dbSet.ToListAsync() ?? [];
         }
 
-        public async Task<TEntity?> ReadById(int id)
-        {
-            return await _dbSet.FindAsync(id) ?? null;
-        }
+        public async Task<TEntity> ReadById(Guid id) => await _dbSet.FirstOrDefaultAsync(i => i.Id == id) ?? throw new Exception("");
+        
 
-        public async Task<bool> Update(int id, TEntity item)
+        public async Task<bool> Update(Guid id, TEntity item)
         {
             var data = await _dbSet.FindAsync(id);
             if (data is not null && data is TEntity entity)

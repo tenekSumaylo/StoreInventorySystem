@@ -4,16 +4,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace inventory_backend.Models
 {
-    public class InvoiceItem
+    public class InvoiceItem : Entity
     {
-        [Required]
-        public int Id { get; set; }
 
         [Required]
-        public int InvoiceId { get; set; }
+        public Guid InvoiceId { get; set; }
 
         [Required]
-        public int ProductId { get; set; }
+        public Guid ProductId { get; set; }
 
         [Required]
         [Range(0, int.MaxValue)]

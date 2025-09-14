@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace inventory_backend.Models
 {
-    public class Customer : IdentityUser<int>
+    public class Customer : IdentityUser
     {
         [Required]
         [MinLength(1, ErrorMessage = "Must be 1 or more characters....")]
@@ -15,7 +15,5 @@ namespace inventory_backend.Models
 
         [Required]
         public string Address { get; set; } = string.Empty;
-
-        public ICollection<Invoice>? Invoices { get; set; } 
     }
 }
