@@ -12,7 +12,7 @@ namespace inventory_backend.Repository.InvoiceRepository
 
         }
 
-        public async Task<IEnumerable<Invoice>> GetAllByCustomer(int customerId)
+        public async Task<IEnumerable<Invoice>> GetAllByCustomer(Guid customerId)
         {
             return await _dbSet.Where(i => i.CustomerId == customerId)
                 .Include(x => x.InvoiceItems)

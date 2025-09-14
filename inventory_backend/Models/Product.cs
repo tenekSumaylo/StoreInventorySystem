@@ -2,13 +2,10 @@
 
 namespace inventory_backend.Models
 {
-    public class Product
+    public class Product : Entity
     {
         [Key]
-        public int Id { get; set; }
-
-        [Key]
-        public int CategoryId { get; set; }
+        public Guid CategoryId { get; set; }
         
         [Required]
         public string ProductName { get; set; } = string.Empty;

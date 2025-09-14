@@ -167,7 +167,6 @@ C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\inventor.F4E9116A.Up2Date
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\inventory_backend.dll
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\refint\inventory_backend.dll
@@ -342,3 +341,11 @@ C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\n
 C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\FluentValidation.dll

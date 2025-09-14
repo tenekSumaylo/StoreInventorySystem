@@ -2,11 +2,8 @@
 
 namespace inventory_backend.Models
 {
-    public class Category
+    public class Category : Entity
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         [MinLength(0)]
         public string Name { get; set; } = string.Empty;

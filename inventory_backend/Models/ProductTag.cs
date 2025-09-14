@@ -2,11 +2,8 @@
 
 namespace inventory_backend.Models
 {
-    public class ProductTag
+    public class ProductTag : Entity
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         public string Tag { get; set; } = string.Empty;
         

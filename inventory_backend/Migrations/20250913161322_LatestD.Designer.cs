@@ -12,8 +12,8 @@ using inventory_backend.Data;
 namespace inventory_backend.Migrations
 {
     [DbContext(typeof(InventorySystemDbContext))]
-    [Migration("20250902072708_minor_db_update")]
-    partial class minor_db_update
+    [Migration("20250913161322_LatestD")]
+    partial class LatestD
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,9 @@ namespace inventory_backend.Migrations
 
             modelBuilder.Entity("inventory_backend.Models.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -42,58 +40,19 @@ namespace inventory_backend.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name");
+
                     b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("inventory_backend.Models.Customer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Email");
-
-                    b.HasIndex("FirstName");
-
-                    b.HasIndex("Id");
-
-                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.Invoice", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("CustomerId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateOnly>("InvoiceDate")
                         .HasColumnType("date");
@@ -110,20 +69,20 @@ namespace inventory_backend.Migrations
 
             modelBuilder.Entity("inventory_backend.Models.InvoiceItem", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<Guid>("InvoiceId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("InvoiceId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Quantity")
-                        .HasColumnType("int");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
 
                     b.HasKey("Id");
 
@@ -131,16 +90,14 @@ namespace inventory_backend.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("invoiceItems");
+                    b.ToTable("InvoiceItems");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.Product", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Brand")
                         .IsRequired()
@@ -148,8 +105,8 @@ namespace inventory_backend.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasDefaultValue("N/A");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
@@ -174,8 +131,8 @@ namespace inventory_backend.Migrations
 
             modelBuilder.Entity("inventory_backend.Models.ProductTag", b =>
                 {
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Tag")
                         .IsRequired()
@@ -188,17 +145,6 @@ namespace inventory_backend.Migrations
                     b.HasIndex("Id");
 
                     b.ToTable("ProductTags");
-                });
-
-            modelBuilder.Entity("inventory_backend.Models.Invoice", b =>
-                {
-                    b.HasOne("inventory_backend.Models.Customer", "Customer")
-                        .WithMany("Invoices")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Customer");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.InvoiceItem", b =>
@@ -245,11 +191,6 @@ namespace inventory_backend.Migrations
             modelBuilder.Entity("inventory_backend.Models.Category", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("inventory_backend.Models.Customer", b =>
-                {
-                    b.Navigation("Invoices");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.Invoice", b =>

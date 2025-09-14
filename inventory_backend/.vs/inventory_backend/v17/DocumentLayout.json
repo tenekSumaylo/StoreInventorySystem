@@ -1,174 +1,206 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\",
+  "WorkspaceRootPath": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\customerrepository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\customerrepository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\customerrepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\customerrepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\customerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\customerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\categorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\categorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\invoicebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\invoicebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\exceptions\\loginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:exceptions\\loginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\exceptions\\registerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:exceptions\\registerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\validations\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:validations\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\migrations\\20250902004656_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250902004656_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\migrations\\20250902075041_invoice-item-config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250902075041_invoice-item-config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\migrations\\20250902072708_minor_db_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250902072708_minor_db_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\invoicerepository\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoicerepository\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\invoiceitemrepository\\iinvoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoiceitemrepository\\iinvoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\invoiceitemrepository\\invoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoiceitemrepository\\invoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\producttagbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\producttagbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\productbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\productbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\extensions\\dbconfigurations\\invoiceitembuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\invoiceitembuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\producttagrepository\\producttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\producttagrepository\\producttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\producttagrepository\\iproducttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\producttagrepository\\iproducttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142605_latestSystemMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250913142605_latestSystemMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:inventory_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\invoicebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\invoicebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\customerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\customerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\categorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\categorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\invoicerepository\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoicerepository\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\invoiceitembuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\invoiceitembuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\inventory_backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:inventory_backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\inventory_backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\inventory_backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:inventory_backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\producttagbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\producttagbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\invoiceitemrepository\\iinvoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoiceitemrepository\\iinvoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\invoiceitemrepository\\invoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoiceitemrepository\\invoiceitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\productbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:extensions\\dbconfigurations\\productbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\producttagrepository\\producttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\producttagrepository\\producttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\producttagrepository\\iproducttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\producttagrepository\\iproducttagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\trainee-sumaylo\\source\\personal\\inventory\\inventory_backend\\migrations\\20250902073837_changed_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250902073837_changed_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\migrations\\20250913161322_latestd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250913161322_latestd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\migrations\\identitydb\\20250913161306_latestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\identitydb\\20250913161306_latestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\migrations\\identitydb\\20250913141848_latestsystemmigrationidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\identitydb\\20250913141848_latestsystemmigrationidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|c:\\users\\kenne\\source\\repos\\teneksumaylo\\storeinventorysystem\\inventory_backend\\migrations\\20250913142702_latestsystemmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250913142702_latestsystemmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,12 +210,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -197,428 +225,490 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CustomerRepository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CustomerRepository\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CustomerRepository\\CustomerRepository.cs",
-              "RelativeToolTip": "Repository\\CustomerRepository\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:34:12.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "Models\\Invoice.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Invoice.cs",
-              "RelativeToolTip": "Models\\Invoice.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:39:22.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.521Z",
+              "WhenOpened": "2025-09-13T14:34:04.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CustomerRepository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CustomerRepository\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CustomerRepository\\ICustomerRepository.cs",
-              "RelativeToolTip": "Repository\\CustomerRepository\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:34:18.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\CustomerBuilder.cs",
-              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\CustomerBuilder.cs",
-              "RelativeToolTip": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\CategoryBuilder.cs",
-              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\CategoryBuilder.cs",
-              "RelativeToolTip": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventorySystemDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Data\\InventorySystemDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\InventorySystemDbContext.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Data\\InventorySystemDbContext.cs",
-              "RelativeToolTip": "Data\\InventorySystemDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InvoiceBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
-              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
-              "RelativeToolTip": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InvoiceItem.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\InvoiceItem.cs",
-              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\InvoiceItem.cs",
-              "RelativeToolTip": "Models\\InvoiceItem.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T08:05:59.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:32:04.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:31:12.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginException.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Exceptions\\LoginException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\LoginException.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Exceptions\\LoginException.cs",
+              "RelativeToolTip": "Exceptions\\LoginException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T15:43:44.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\IEntity.cs",
+              "RelativeDocumentMoniker": "Models\\IEntity.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\IEntity.cs",
+              "RelativeToolTip": "Models\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:45:52.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "Models\\Entity.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
+              "RelativeToolTip": "Models\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:46:27.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T06:42:04.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
+              "Title": "RegisterException.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Exceptions\\RegisterException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\RegisterException.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Exceptions\\RegisterException.cs",
+              "RelativeToolTip": "Exceptions\\RegisterException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T15:58:52.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Validations\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validations\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Validations\\LoginDtoValidator.cs",
+              "RelativeToolTip": "Validations\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:25:56.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:30:25.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "InvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\InvoiceController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Controllers\\InvoiceController.cs",
               "RelativeToolTip": "Controllers\\InvoiceController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T06:28:20.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:03:55.44Z",
+              "WhenOpened": "2025-09-02T00:18:32.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\IdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
+              "RelativeToolTip": "Data\\IdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:53:38.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventorySystemDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\InventorySystemDbContext.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
+              "RelativeToolTip": "Data\\InventorySystemDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T13:40:08.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250913161306_LatestDb.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
+              "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
+              "RelativeToolTip": "Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T16:13:06.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250913161322_LatestD.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913161322_LatestD.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250913161322_LatestD.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913161322_LatestD.cs",
+              "RelativeToolTip": "Migrations\\20250913161322_LatestD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T16:13:22.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250913141848_latestSystemMigrationIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
+              "RelativeToolTip": "Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:18:48.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250913142702_latestSystemMigration.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142702_latestSystemMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250913142702_latestSystemMigration.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142702_latestSystemMigration.cs",
+              "RelativeToolTip": "Migrations\\20250913142702_latestSystemMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:27:03.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterDtoExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "RelativeDocumentMoniker": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "RelativeToolTip": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:50:54.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InvoiceBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+              "RelativeToolTip": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250913142605_latestSystemMigration.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142605_latestSystemMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250913142605_latestSystemMigration.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142605_latestSystemMigration.cs",
+              "RelativeToolTip": "Migrations\\20250913142605_latestSystemMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:26:05.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-02T00:18:32.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CategoryBuilder.cs",
+              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CategoryBuilder.cs",
+              "RelativeToolTip": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CustomerBuilder.cs",
+              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CustomerBuilder.cs",
+              "RelativeToolTip": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ProductTag.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\ProductTag.cs",
               "RelativeDocumentMoniker": "Models\\ProductTag.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\ProductTag.cs",
               "RelativeToolTip": "Models\\ProductTag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T00:18:32.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250902004656_initial.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902004656_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250902004656_initial.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902004656_initial.cs",
-              "RelativeToolTip": "Migrations\\20250902004656_initial.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:46:56.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250902075041_invoice-item-config.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902075041_invoice-item-config.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250902075041_invoice-item-config.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902075041_invoice-item-config.cs",
-              "RelativeToolTip": "Migrations\\20250902075041_invoice-item-config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:50:41.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250902072708_minor_db_update.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902072708_minor_db_update.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250902072708_minor_db_update.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902072708_minor_db_update.cs",
-              "RelativeToolTip": "Migrations\\20250902072708_minor_db_update.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:27:08.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IInvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceRepository\\IInvoiceRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceRepository\\IInvoiceRepository.cs",
-              "RelativeToolTip": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:07:06.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "InvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceRepository\\InvoiceRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceRepository\\InvoiceRepository.cs",
-              "RelativeToolTip": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:07:30.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IInvoiceItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
-              "RelativeToolTip": "Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:10:01.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductRepository\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductRepository\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductRepository\\IProductRepository.cs",
-              "RelativeToolTip": "Repository\\ProductRepository\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T06:21:24.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\GenericRepository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\GenericRepository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\GenericRepository\\GenericRepository.cs",
-              "RelativeToolTip": "Repository\\GenericRepository\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T05:30:30.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "InvoiceItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
-              "RelativeToolTip": "Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:10:45.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\IGenericRepository.cs",
               "RelativeToolTip": "Repository\\GenericRepository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T05:27:34.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CategoryRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CategoryRepository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CategoryRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "Repository\\CategoryRepository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "Repository\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:32:23.865Z",
+              "WhenOpened": "2025-09-02T05:30:30.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CategoryRepository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CategoryRepository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\CategoryRepository\\CategoryRepository.cs",
-              "RelativeToolTip": "Repository\\CategoryRepository\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:32:43.913Z",
+              "WhenOpened": "2025-09-02T00:18:32.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\InvoiceRepository.cs",
+              "RelativeToolTip": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:07:30.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\IInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\IInvoiceRepository.cs",
+              "RelativeToolTip": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:07:06.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "ProductTagBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\ProductTagBuilder.cs",
-              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductTagBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\ProductTagBuilder.cs",
-              "RelativeToolTip": "Extensions\\DbConfigurations\\ProductTagBuilder.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\ProductBuilder.cs",
-              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\ProductBuilder.cs",
-              "RelativeToolTip": "Extensions\\DbConfigurations\\ProductBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "InvoiceItemBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
               "RelativeToolTip": "Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -627,101 +717,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20250902073837_changed_invoice.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902073837_changed_invoice.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250902073837_changed_invoice.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Migrations\\20250902073837_changed_invoice.cs",
-              "RelativeToolTip": "Migrations\\20250902073837_changed_invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:38:37.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductTagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductTagRepository\\ProductTagRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\ProductTagRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductTagRepository\\ProductTagRepository.cs",
-              "RelativeToolTip": "Repository\\ProductTagRepository\\ProductTagRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:30:26.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "IProductTagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductTagRepository\\IProductTagRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\IProductTagRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductTagRepository\\IProductTagRepository.cs",
-              "RelativeToolTip": "Repository\\ProductTagRepository\\IProductTagRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:30:17.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-02T00:18:32.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductRepository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductRepository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Repository\\ProductRepository\\ProductRepository.cs",
-              "RelativeToolTip": "Repository\\ProductRepository\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T06:21:38.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "inventory_backend.csproj",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj",
-              "RelativeDocumentMoniker": "inventory_backend.csproj",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj",
-              "RelativeToolTip": "inventory_backend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T06:27:48.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "inventory_backend",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj",
-              "RelativeDocumentMoniker": "inventory_backend.csproj",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.csproj",
-              "RelativeToolTip": "inventory_backend.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T00:47:15.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
               "Title": "inventory_backend.http",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.http",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\inventory_backend.http",
               "RelativeDocumentMoniker": "inventory_backend.http",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\inventory_backend.http",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\inventory_backend.http",
               "RelativeToolTip": "inventory_backend.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -730,20 +730,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "inventory_backend",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
+              "RelativeDocumentMoniker": "inventory_backend.csproj",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
+              "RelativeToolTip": "inventory_backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T00:47:15.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductTagBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductTagBuilder.cs",
+              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductTagBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductTagBuilder.cs",
+              "RelativeToolTip": "Extensions\\DbConfigurations\\ProductTagBuilder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IInvoiceItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
+              "RelativeToolTip": "Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:10:01.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:21:24.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InvoiceItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
+              "RelativeToolTip": "Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:10:45.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:32:23.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 40,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoryRepository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\CategoryRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:32:43.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductBuilder.cs",
+              "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductBuilder.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductBuilder.cs",
+              "RelativeToolTip": "Extensions\\DbConfigurations\\ProductBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\ProductTagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\ProductTagRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\ProductTagRepository.cs",
+              "RelativeToolTip": "Repository\\ProductTagRepository\\ProductTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:30:26.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IProductTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\IProductTagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\IProductTagRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\IProductTagRepository.cs",
+              "RelativeToolTip": "Repository\\ProductTagRepository\\IProductTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:30:17.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:21:38.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "global.json",
-              "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\global.json",
+              "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\global.json",
               "RelativeDocumentMoniker": "global.json",
-              "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\global.json",
+              "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\global.json",
               "RelativeToolTip": "global.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-02T00:18:32.535Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
