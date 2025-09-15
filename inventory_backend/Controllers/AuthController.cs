@@ -2,6 +2,7 @@
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
 using inventory_backend.Services.AuthServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
@@ -35,9 +36,9 @@ namespace inventory_backend.Controllers
             }
             catch (LoginException ex)
             {
-                return BadRequest(ex.ValidationResult?.Errors is null ? ex.Message: ex.ValidationResult.Errors);
+                return BadRequest(ex.ValidationResult?.Errors is null ? ex.Message : ex.ValidationResult.Errors);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -59,6 +60,46 @@ namespace inventory_backend.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        } 
+        }
+
+        [HttpGet("Google")]
+        [AllowAnonymous]
+        public IActionResult ExternalLogin(string provider, string? returnUrl = null)
+        {
+            var redirectUrl = Url.Action(
+                action: "ExternalLoginCallback",
+                controller: "Auth",
+                values: new { ReturnUrl = returnUrl });
+            var properties = _auth.ConfigureExternalLogin(provider, redirectUrl);
+            return new ChallengeResult(provider, properties);
+        }
+
+
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> ExternalLoginCallback(string? returnUrl = null, string? remoteError = null)
+        {
+            returnUrl = returnUrl ?? Url.Content("~/");
+
+            if ( remoteError != null )
+            {
+                return BadRequest("Error");
+            }
+
+            var info = await _auth.GetExternalLoginInfoAsync();
+
+            if ( info == null )
+            {
+                return BadRequest("Error loading external login");
+            }
+
+            var result = await _auth.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false);
+
+            if ( result.Succeeded)
+            {
+                return Ok("Success!!!");
+            }
+            return BadRequest("Login unsuccessful");
+        }
     }
 }

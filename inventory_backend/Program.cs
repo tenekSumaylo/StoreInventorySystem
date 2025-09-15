@@ -7,6 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.Google;
+using FluentValidation;
+using inventory_backend.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,6 +53,7 @@ builder.Services.AddDbContext<IdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
 });
 
+builder.Services.AddValidatorsFromAssemblyContaining<LoginDtoValidator>();
 builder.Services.AddIdentityCore<Customer>(options =>
 {
     options.Password.RequireDigit = true;
@@ -57,7 +61,7 @@ builder.Services.AddIdentityCore<Customer>(options =>
     options.Password.RequireUppercase = true;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequiredLength = 12;
-}).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders();
+}).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<Customer>>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -85,6 +89,12 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = issuer,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret))
     };
+})
+.AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+    googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+
 });
 
 builder.Services.AddScoped<IAuthService, AuthService>();
