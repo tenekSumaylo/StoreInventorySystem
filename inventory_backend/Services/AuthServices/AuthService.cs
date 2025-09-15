@@ -22,8 +22,8 @@ namespace inventory_backend.Services.AuthServices
         }
         public async Task<string> Login(LoginDto dto)
         {
-            var userInformation = await _manager.FindByNameAsync(dto.UserLogin) ?? throw new Exception("User not found");
-            if (!await _manager.CheckPasswordAsync(userInformation, dto.Password)) throw new Exception("Password incorrect");
+            var userInformation = await _manager.FindByNameAsync(dto.UserLogin) ?? throw new LoginException("User not found");
+            if (!await _manager.CheckPasswordAsync(userInformation, dto.Password)) throw new LoginException("Password incorrect");
             var generateToken = GenerateToken(userInformation);
             return generateToken;
         }

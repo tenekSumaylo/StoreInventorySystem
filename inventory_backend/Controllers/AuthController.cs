@@ -35,7 +35,7 @@ namespace inventory_backend.Controllers
             }
             catch (LoginException ex)
             {
-                return BadRequest(ex.ValidationResult?.Errors is null ? ex.Result!.Errors: ex.ValidationResult.Errors);
+                return BadRequest(ex.ValidationResult?.Errors is null ? ex.Message: ex.ValidationResult.Errors);
             }
             catch (Exception ex) 
             {
@@ -51,9 +51,9 @@ namespace inventory_backend.Controllers
                 var result = await _auth.Register(dto);
                 return Ok(result.Succeeded);
             }
-            catch (RegisterException ex )
+            catch (RegisterException ex)
             {
-                return BadRequest(ex.IdentityResult.Errors);
+                return BadRequest(ex.IdentityResult?.Errors is null ? ex.ValidationResult!.Errors : ex.IdentityResult.Errors);
             }
             catch (Exception ex)
             {
