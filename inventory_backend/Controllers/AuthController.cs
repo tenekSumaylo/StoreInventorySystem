@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using inventory_backend.Authentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
 using inventory_backend.Services.AuthServices;
@@ -14,13 +15,16 @@ namespace inventory_backend.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IAuthService _auth;
+        private readonly IAuthenticationService<LoginDto, RegisterDto> _basicAuthenticationService;
         private readonly IValidator<LoginDto> _loginValidator;
+        private readonly IValidator<RegisterDto> _registerValidator;
 
-        public AuthController(IAuthService service, IValidator<LoginDto> loginValidator)
+        public AuthController( IValidator<LoginDto> loginValidator, IAuthenticationService<LoginDto, RegisterDto> basicService
+            , IValidator<RegisterDto> registerValidator)
         {
-            _auth = service;
             _loginValidator = loginValidator;
+            _basicAuthenticationService = basicService;
+            _registerValidator = registerValidator;
         }
 
         [HttpPost("Login")]
@@ -28,19 +32,21 @@ namespace inventory_backend.Controllers
         {
             try
             {
-                if (await _loginValidator.ValidateAsync(dto) is FluentValidation.Results.ValidationResult validator && !validator.IsValid)
+                if (await _loginValidator.ValidateAsync(dto) is FluentValidation.Results.ValidationResult validator 
+                    && !validator.IsValid)
                 {
                     throw new LoginException("Login dto is invalid...", validator);
                 }
-                return Ok(await _auth.Login(dto));
+                var jwtToken = _basicAuthenticationService.Login(dto) ?? throw new LoginException("Jwt token is invalid, and cannot be processed");
+                return Ok(new { jwtToken } );
             }
             catch (LoginException ex)
             {
-                return BadRequest(ex.ValidationResult?.Errors is null ? ex.Message : ex.ValidationResult.Errors);
+                return BadRequest(ex.ValidationResult?.Errors is null ? new {ex.Message} : new {ex.ValidationResult.Errors});
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new {ex.Message});
             }
         }
 
@@ -49,19 +55,24 @@ namespace inventory_backend.Controllers
         {
             try
             {
-                var result = await _auth.Register(dto);
-                return Ok(result.Succeeded);
+                if (_registerValidator.Validate(dto) is FluentValidation.Results.ValidationResult validationResult
+                    && !validationResult.IsValid )
+                {
+                    throw new RegisterException("Register data has invalid fields", validationResult);
+                }
+                var result = await _basicAuthenticationService.CreateUser(dto);
+                return Ok(new {result.Succeeded, Message="Registration Successful"});
             }
             catch (RegisterException ex)
             {
-                return BadRequest(ex.IdentityResult?.Errors is null ? ex.ValidationResult!.Errors : ex.IdentityResult.Errors);
+                return BadRequest(ex.IdentityResult?.Errors is null ? new {ex.ValidationResult!.Errors} : new {ex.IdentityResult.Errors});
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new {ex.Message});
             }
         }
-
+        /*
         [HttpGet("Google")]
         [AllowAnonymous]
         public IActionResult ExternalLogin(string provider, string? returnUrl = null)
@@ -100,6 +111,6 @@ namespace inventory_backend.Controllers
                 return Ok("Success!!!");
             }
             return BadRequest("Login unsuccessful");
-        }
+        } */
     }
 }

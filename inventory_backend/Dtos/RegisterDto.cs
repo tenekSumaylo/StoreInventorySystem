@@ -4,7 +4,6 @@ using System.Runtime.InteropServices;
 namespace inventory_backend.Dtos
 {
     public sealed record RegisterDto(
-        [Required] string Username, [Required] string Password, [Required][EmailAddress] string Email, [Required] string FirstName, 
-        [Required] string LastName, [Optional] string Address
+       string Username, string Password, string Email, string FirstName,  string LastName, string Address, DateOnly DateOfBirth
      );
 }

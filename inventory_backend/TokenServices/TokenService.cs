@@ -5,7 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace inventory_backend.Services.TokenService
+namespace inventory_backend.TokenServices
 {
     public class TokenService : ITokenService
     {
@@ -27,7 +27,7 @@ namespace inventory_backend.Services.TokenService
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new System.Security.Claims.ClaimsIdentity(new[]
+                Subject = new ClaimsIdentity(new[]
                 {
                     new Claim(ClaimTypes.Name, user.UserName!),
                     new Claim(ClaimTypes.NameIdentifier, $"{user.FirstName} {user.LastName}")

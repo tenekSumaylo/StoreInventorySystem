@@ -165,12 +165,14 @@ namespace inventory_backend.Migrations.IdentityDb
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly?>("DateOfBirth")
+                        .HasColumnType("date");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -182,7 +184,7 @@ namespace inventory_backend.Migrations.IdentityDb
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -226,8 +228,6 @@ namespace inventory_backend.Migrations.IdentityDb
                     b.HasIndex("Email")
                         .IsUnique();
 
-                    b.HasIndex("FirstName");
-
                     b.HasIndex("Id")
                         .IsUnique();
 
@@ -238,6 +238,8 @@ namespace inventory_backend.Migrations.IdentityDb
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.HasIndex("UserName");
 
                     b.ToTable("AspNetUsers", (string)null);
                 });
