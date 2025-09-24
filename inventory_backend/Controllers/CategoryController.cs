@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace inventory_backend.Controllers
 {
-
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]

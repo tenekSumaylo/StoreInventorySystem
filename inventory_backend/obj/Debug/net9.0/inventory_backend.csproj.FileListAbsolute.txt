@@ -351,3 +351,6 @@ C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\FluentValidation.dll
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\kenne\source\repos\tenekSumaylo\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\TRAINEE-SUMAYLO\source\personal\inventory\inventory_backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll

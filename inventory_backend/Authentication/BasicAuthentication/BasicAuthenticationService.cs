@@ -3,7 +3,7 @@ using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
 using inventory_backend.Extensions.RegisterDtoExtension;
 using inventory_backend.Models;
-using inventory_backend.Services.TokenService;
+using inventory_backend.TokenServices;
 using Microsoft.AspNetCore.Identity;
 using System.Runtime.CompilerServices;
 
@@ -20,10 +20,9 @@ namespace inventory_backend.Authentication.BasicAuthentication
             _tokenService = tokenService;
         }
 
-
         public async Task<IdentityResult> CreateUser(RegisterDto data)
         {
-            // map registerdto to customer -- mock only -- AutoMapper to be added
+            // map register dto to customer -- mock only -- AutoMapper to be added
             var mappedCustomer = data.MapToCustomer();
             var result = await _manager.CreateAsync(mappedCustomer, data.Password);
             if (result.Errors.FirstOrDefault() is not null)
@@ -55,9 +54,7 @@ namespace inventory_backend.Authentication.BasicAuthentication
                     return _tokenService.GenerateToken(email);
                 }
             }
-            // generate token here
             throw new LoginException("Login credentials invalid...");
-
         }
     }
 }

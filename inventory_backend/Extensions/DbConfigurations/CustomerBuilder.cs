@@ -13,7 +13,7 @@ namespace inventory_backend.Extensions.DbConfigurations
             modelBuilder.Property(i => i.Email).IsRequired();
             modelBuilder.HasIndex(i => i.Email).IsUnique();
             modelBuilder.HasIndex(i => i.Id).IsUnique();
-            modelBuilder.HasIndex(i => i.FirstName);
+            modelBuilder.HasIndex(i => i.UserName);
         }
     }
 }

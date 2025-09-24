@@ -10,6 +10,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.Google;
 using FluentValidation;
 using inventory_backend.Validations;
+using inventory_backend.ProgramExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,90 +19,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen(options =>
-{
-    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Description = "JWT Auth Header using the Bearer Scheme. Example: \"Authorization: Bear {token}\"",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
-    });
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] {}
-        }
-    });
-});
-builder.Services.AddDbContext<InventorySystemDbContext>( options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
-
-builder.Services.AddDbContext<IdentityDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
-});
-
+builder.Services.ConfigureSwaggerConfiguration(); // swagger gen in this extension method
+builder.ConfigureDbContext();
 builder.Services.AddValidatorsFromAssemblyContaining<LoginDtoValidator>();
-builder.Services.AddIdentityCore<Customer>(options =>
-{
-    options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = true;
-    options.Password.RequireUppercase = true;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 12;
-}).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<Customer>>();
-
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme =
-    options.DefaultChallengeScheme =
-    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-
-}).AddJwtBearer( options =>
-{
-    var secret = builder.Configuration["JwtConfig:Secret"];
-    var audience = builder.Configuration["JwtConfig:Audience"];
-    var issuer = builder.Configuration["JwtConfig:Issuer"];
-    
-    if ( secret is null || audience is null || issuer is null )
-    {
-        throw new ApplicationException("Jwt has missing values");
-    }
-    options.SaveToken = true;
-    options.RequireHttpsMetadata = false;
-    options.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidAudience = audience,
-        ValidIssuer = issuer,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret))
-    };
-})
-.AddGoogle(googleOptions =>
-{
-    googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
-    googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
-
-});
-
-builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.ConfigureIdentityConfiguration();
+builder.Services.ConfigureAuthentication(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
