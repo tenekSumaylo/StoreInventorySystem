@@ -46,7 +46,7 @@ namespace inventory_backend.Repository.GenericRepository
             return await _dbSet.ToListAsync() ?? [];
         }
 
-        public async Task<TEntity> ReadById(Guid id) => await _dbSet.FirstOrDefaultAsync(i => i.Id == id) ?? throw new Exception("");
+        public async Task<TEntity> ReadById(Guid id) => await _dbSet.SingleAsync(i => i.Id == id) ?? throw new Exception("");
         
 
         public async Task<bool> Update(Guid id, TEntity item)

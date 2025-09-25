@@ -72,45 +72,5 @@ namespace inventory_backend.Controllers
                 return BadRequest(new {ex.Message});
             }
         }
-        /*
-        [HttpGet("Google")]
-        [AllowAnonymous]
-        public IActionResult ExternalLogin(string provider, string? returnUrl = null)
-        {
-            var redirectUrl = Url.Action(
-                action: "ExternalLoginCallback",
-                controller: "Auth",
-                values: new { ReturnUrl = returnUrl });
-            var properties = _auth.ConfigureExternalLogin(provider, redirectUrl);
-            return new ChallengeResult(provider, properties);
-        }
-
-
-        [HttpGet]
-        [AllowAnonymous]
-        public async Task<IActionResult> ExternalLoginCallback(string? returnUrl = null, string? remoteError = null)
-        {
-            returnUrl = returnUrl ?? Url.Content("~/");
-
-            if ( remoteError != null )
-            {
-                return BadRequest("Error");
-            }
-
-            var info = await _auth.GetExternalLoginInfoAsync();
-
-            if ( info == null )
-            {
-                return BadRequest("Error loading external login");
-            }
-
-            var result = await _auth.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false);
-
-            if ( result.Succeeded)
-            {
-                return Ok("Success!!!");
-            }
-            return BadRequest("Login unsuccessful");
-        } */
     }
 }
