@@ -21,6 +21,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.ConfigureSwaggerConfiguration(); // swagger gen in this extension method
 builder.ConfigureDbContext();
+builder.Services.ConfigureDependencyInjection();
 builder.Services.AddValidatorsFromAssemblyContaining<LoginDtoValidator>();
 builder.Services.ConfigureIdentityConfiguration();
 builder.Services.ConfigureAuthentication(builder.Configuration);

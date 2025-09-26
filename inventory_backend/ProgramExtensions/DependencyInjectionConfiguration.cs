@@ -1,7 +1,10 @@
 ﻿using inventory_backend.Authentication;
 using inventory_backend.Authentication.BasicAuthentication;
+using inventory_backend.Authentication.GoogleAuthentication;
 using inventory_backend.Dtos;
 using inventory_backend.TokenServices;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 
 namespace inventory_backend.ProgramExtensions
 {
@@ -11,6 +14,7 @@ namespace inventory_backend.ProgramExtensions
         {
             services.AddScoped<IAuthenticationService<LoginDto, RegisterDto>, BasicAuthenticationService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IAuthenticationService<AuthenticateResult, ExternalLoginInfo>, GoogleAuthenticationService>(); 
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -13,9 +15,13 @@ namespace inventory_backend.ProgramExtensions
             {
                 options.DefaultAuthenticateScheme =
                 options.DefaultChallengeScheme =
-                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = "Identity.External";
 
-            }).AddJwtBearer(options =>
+            })
+                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie("Identity.External")
+                .AddJwtBearer(options =>
             {
                 var secret = config["JwtConfig:Secret"];
                 var audience = config["JwtConfig:Audience"];
@@ -41,7 +47,7 @@ namespace inventory_backend.ProgramExtensions
                 googleOptions.ClientId = config["Authentication:Google:ClientId"]!;
                 googleOptions.ClientSecret = config["Authentication:Google:ClientSecret"]!;
                 googleOptions.CallbackPath = "/signin-google";
-                googleOptions.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                googleOptions.SignInScheme = IdentityConstants.ExternalScheme;
 
             });
         }

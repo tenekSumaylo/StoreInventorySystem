@@ -1,44 +1,22 @@
 [
   {
     "ContainingType": "inventory_backend.Controllers.AuthController",
-    "Method": "ExternalLoginCallback",
-    "RelativePath": "api/Auth",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "returnUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "remoteError",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "inventory_backend.Controllers.AuthController",
-    "Method": "ExternalLogin",
+    "Method": "GoogleLogin",
     "RelativePath": "api/Auth/Google",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "provider",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "returnUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.AuthController",
+    "Method": "GoogleCallBack",
+    "RelativePath": "api/Auth/GoogleCallBack",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
