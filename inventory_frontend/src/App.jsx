@@ -6,13 +6,15 @@ import './index.css'
 import { Provider } from "./components/ui/provider"
 import { Demo } from './test'
 import {DashBoard} from './Pages/Dashboard'
+import AuthorizedDrawer from './components/layout/SideDrawer'
+import UnAuthorizedHeader from './components/layout/UnAuthorizedHeader'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <Provider>
-      <DashBoard/> 
+      <UnAuthorizedHeader/> 
     </Provider>
   )
 }

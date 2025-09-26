@@ -2,11 +2,15 @@
 using inventory_backend.Authentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
+using inventory_backend.Models;
 using inventory_backend.Services.AuthServices;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Claims;
 
 namespace inventory_backend.Controllers
 {
@@ -16,15 +20,21 @@ namespace inventory_backend.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthenticationService<LoginDto, RegisterDto> _basicAuthenticationService;
+        IAuthenticationService<AuthenticateResult, ExternalLoginInfo> _googleOten;
+
         private readonly IValidator<LoginDto> _loginValidator;
         private readonly IValidator<RegisterDto> _registerValidator;
+        private readonly SignInManager<Customer> _signinManager;
 
         public AuthController( IValidator<LoginDto> loginValidator, IAuthenticationService<LoginDto, RegisterDto> basicService
-            , IValidator<RegisterDto> registerValidator)
+            , IValidator<RegisterDto> registerValidator, SignInManager<Customer> signinManager,
+            IAuthenticationService<AuthenticateResult, ExternalLoginInfo>  service)
         {
             _loginValidator = loginValidator;
             _basicAuthenticationService = basicService;
             _registerValidator = registerValidator;
+            _signinManager = signinManager;
+            _googleOten = service;
         }
 
         [HttpPost("Login")]
@@ -37,7 +47,7 @@ namespace inventory_backend.Controllers
                 {
                     throw new LoginException("Login dto is invalid...", validator);
                 }
-                var jwtToken = _basicAuthenticationService.Login(dto) ?? throw new LoginException("Jwt token is invalid, and cannot be processed");
+                var jwtToken = ( await _basicAuthenticationService.Login(dto) ) ?? throw new LoginException("Jwt token is invalid, and cannot be processed");
                 return Ok(new { jwtToken } );
             }
             catch (LoginException ex)
@@ -71,6 +81,32 @@ namespace inventory_backend.Controllers
             {
                 return BadRequest(new {ex.Message});
             }
+        }
+
+        [HttpGet("Google")]
+        public IActionResult GoogleLogin()
+        {
+            var redirectUrl = Url.Action(
+                    action: "GoogleCallBack",
+                    controller: "Auth",
+                    values: new {ReturnUrl = "http://localhost:5166/swagger" }
+                );
+            var properties = _signinManager.ConfigureExternalAuthenticationProperties("Google", redirectUrl);
+            return new ChallengeResult("Google", properties);
+        }
+
+        [HttpGet("GoogleCallBack")]
+        public async Task<IActionResult> GoogleCallBack()
+        {
+            var nota = await _signinManager.GetExternalAuthenticationSchemesAsync();
+            var externalInfo = await _signinManager.GetExternalLoginInfoAsync();
+            var context = await HttpContext.AuthenticateAsync("Google");
+            var name = context?.Principal?.FindFirstValue(ClaimTypes.Email);
+            if ( externalInfo is null )
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
     }
 }
