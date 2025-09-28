@@ -8,13 +8,19 @@ import { Demo } from './test'
 import {DashBoard} from './Pages/Dashboard'
 import AuthorizedDrawer from './components/layout/SideDrawer'
 import UnAuthorizedHeader from './components/layout/UnAuthorizedHeader'
+import UnAuthorizedHome from './Pages/Home'
+import RegisterPage from './Pages/Register'
+import LoginPage from './Pages/LoginPage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <Provider>
-      <UnAuthorizedHeader/> 
+      <div>
+        <LoginPage/> 
+      </div>
+
     </Provider>
   )
 }

@@ -9,5 +9,5 @@ export const DashBoard = () => {
                 </Button>
             </SimpleGrid>
         </div>
-    )
+    );
 }

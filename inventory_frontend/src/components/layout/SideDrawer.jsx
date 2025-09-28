@@ -9,7 +9,7 @@ const AuthorizedDrawer = () => {
                 onOpenChange={(e) => setStatus(e.open)}
                 size="xs">
             <Drawer.Trigger asChild>
-                <Icon>
+                <Icon color="black">
                     <UserRound/>
                 </Icon>
             </Drawer.Trigger>
@@ -21,37 +21,48 @@ const AuthorizedDrawer = () => {
                             <Drawer.Title flex>
                                 <Flex gap={0} align="center">
                                     <Text color="white">
-                                        Norwen's Inventory System
+                                        Porn
                                     </Text>
+                                    <Text bg="orange.500" color="black">Hub</Text>
                                 </Flex>
                             </Drawer.Title>
                         </Drawer.Header>
-                        <Drawer.Body>
+                        <Drawer.Body className="flex">
                             <div>
-                                <Avatar.Root
-                                size="2xl"
-                                className="inline-flex items-center justify-center h-[250px] w-[250px] rounded-full overflow-hidden"
-                                >
-                                <Avatar.Fallback />
-                                <Avatar.Image
-                                    className="h-full w-full object-cover rounded-full border"
-                                    src="https://media.licdn.com/dms/image/v2/D4D03AQEsQXE-rrFTOw/profile-displayphoto-shrink_200_200/B4DZX7qxIfGkAY-/0/1743684048360?e=2147483647&v=beta&t=2Xi2MFNUCJi4HDguIyjqyY51rm5rxIylAOTBnFBdV8E"
-                                />
-                                </Avatar.Root>
+                                <div className="flex items-center">
+                                    <Avatar.Root
+                                    size="2xl"
+                                    className="inline-flex items-center justify-center h-[250px] w-[250px] rounded-full overflow-hidden"
+                                    mr="5"
+                                    >
+                                    <Avatar.Fallback />
+                                    <Avatar.Image 
+                                        className="h-full w-full object-cover rounded-full border"
+                                        src="https://media.licdn.com/dms/image/v2/D4D03AQEsQXE-rrFTOw/profile-displayphoto-shrink_200_200/B4DZX7qxIfGkAY-/0/1743684048360?e=2147483647&v=beta&t=2Xi2MFNUCJi4HDguIyjqyY51rm5rxIylAOTBnFBdV8E"
+                                    />
+                                    </Avatar.Root>
+                                    <div>
+                                        <Text textStyle="xl">Norwen T. Penas</Text>
+                                    </div>
+                                </div>
                                 <div>
                                     <List.Root as="ul"
-                                            className="list-none p-0 m-0">
-                                        <List.Item color="white" >
+                                            className="list-none p-0 m-0"
+                                            listStyleType="none"
+                                            gap="5"
+                                            pt="5"
+                                            >
+                                        <List.Item color="white" spaceX="3" _hover={ {color: 'orange.500'}}> 
                                             <Icon>
                                                 <HomeIcon/>
                                             </Icon>
-                                            Home
+                                            <span>Home</span>
                                         </List.Item>
-                                            <List.Item color="white" >
+                                            <List.Item color="white" spaceX="3" _hover={ {color: 'orange.500'}}>
                                             <Icon>
                                                 <ShoppingCart/>
                                             </Icon>
-                                            Cart
+                                            <span>Cart</span>
                                         </List.Item>
                                     </List.Root>
                                 </div>
