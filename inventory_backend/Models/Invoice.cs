@@ -6,7 +6,9 @@ namespace inventory_backend.Models
     {
         public Guid CustomerId { get; set; }
         public double TotalAmount { get; set; }
-        public DateOnly InvoiceDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
-        public ICollection<InvoiceItem>? InvoiceItems { get; set; }
+        public DateTime InvoiceDate { get; set; } = DateTime.Now;
+        public Guid OrderId { get; set; }
+        public Order? Order { get; set; }
+        public ICollection<InvoiceItem>? Items { get; set; }
     }
 }

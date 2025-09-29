@@ -9,7 +9,7 @@ using System.Security.Claims;
 namespace inventory_backend.Authentication.GoogleAuthentication
 {
     public class GoogleAuthenticationService(UserManager<Customer> manager, 
-        SignInManager<Customer> service, ITokenService tokenService) : IAuthenticationService<AuthenticateResult, ExternalLoginInfo>
+        SignInManager<Customer> service, ITokenService tokenService) : IGoogleAuthenticationService
     {
         private readonly UserManager<Customer> _manager = manager;
         private readonly SignInManager<Customer> _signinManager = service;
@@ -18,6 +18,15 @@ namespace inventory_backend.Authentication.GoogleAuthentication
         // this section is to be implemented
         public async Task<IdentityResult> CreateUser(ExternalLoginInfo data)
         {
+            var emailResult = _manager.FindByEmailAsync(data.Principal.FindFirstValue(ClaimTypes.Email)!);
+            if ( emailResult is null )
+            {
+                return IdentityResult.Failed( new IdentityError
+                {
+                    Code = "User already exists",
+                    Description = "User registration cannot proceed...."
+                });
+            }
             var user = new Customer
             {
                 FirstName = data.Principal.FindFirstValue(ClaimTypes.GivenName) ?? throw new Exception("First name is null"),
@@ -29,7 +38,7 @@ namespace inventory_backend.Authentication.GoogleAuthentication
             return result.Succeeded && createAsync.Succeeded ? result : throw new RegisterException("Registration failed", result);
         }
 
-        public async Task<string?> Login(AuthenticateResult data)
+        public async Task<string?> Login(Microsoft.AspNetCore.Authentication.AuthenticateResult data)
         {
             if ( data.Succeeded)
             {
@@ -39,11 +48,6 @@ namespace inventory_backend.Authentication.GoogleAuthentication
                 {
                     return _tokenService.GenerateToken(result);
                 }
-                else
-                {
-                    var res = await CreateUser(info);
-                    res.
-                }
 
             }
             throw new LoginException("Authentication failed", data.Failure ?? throw new Exception());
@@ -51,6 +55,8 @@ namespace inventory_backend.Authentication.GoogleAuthentication
 
         public AuthenticationProperties ConfigureExternal(string provider, string redirectUrl) =>
             _signinManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+
+        public async Task<ExternalLoginInfo?> GetExternalInformation() => await _signinManager.GetExternalLoginInfoAsync();
 
     }
 }

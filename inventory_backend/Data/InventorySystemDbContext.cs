@@ -26,6 +26,10 @@ namespace inventory_backend.Data
             builder.Entity<ProductTag>().Configure();
             builder.Entity<Category>().Configure();
             builder.Entity<InvoiceItem>().Configure();
+            builder.Entity<ShoppingCart>().Configure();
+            builder.Entity<ShoppingCartItem>().Configure();
+            builder.Entity<Order>().Configure();
+            builder.Entity<OrderItems>().Configure();
         }
     }
 }
