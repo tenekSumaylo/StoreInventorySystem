@@ -1,11 +1,11 @@
-import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
+import AuthorizedHeader from "./../components/layout/AuthorizedHeader";
 import { VStack, Input, Button, Group, Flex, Card, Image, Text} from "@chakra-ui/react";
-const UnAuthorizedHome = () => {
+const AuthorizedHome = () => {
     return(
         <>
         <div className="bg-gray-100">
             <VStack gap="14" justifyItems="center" pb="5">
-                <UnAuthorizedHeader/>
+                <AuthorizedHeader/>
                 <Group attached w="full" maxW="xl" bg="white">
                     <form className="flex">
                         <Input flex="1" placeholder="What do you need?" w="xl" color="black"></Input>
@@ -124,4 +124,4 @@ const UnAuthorizedHome = () => {
     );
 }
 
-export default UnAuthorizedHome;
+export default AuthorizedHome;

@@ -16,49 +16,77 @@ namespace inventory_backend.Repository.GenericRepository
 
         public async Task<bool> Add(TEntity item)
         {
-            if (item is not null)
+            try
             {
-                if (!_dbSet.Contains(item))
+                if (item is not null)
                 {
-                    await _dbSet.AddAsync(item);
-                    await _systemDbContext.SaveChangesAsync();
-                    return true;
-                }
+                    if (!_dbSet.Contains(item))
+                    {
+                        await _dbSet.AddAsync(item);
+                        return true;
+                    }
 
+                }
+                return false;
             }
-            return false;
+            catch ( Exception ex )
+            {
+                throw new Exception(ex.Message, ex);
+            }
         }
 
         public async Task<bool> Delete(Guid id)
         {
-            var data = await _dbSet.FindAsync(id);
-            if (data is not null && data is TEntity entity)
+            try
             {
-                _dbSet.Remove(entity);
-                await _systemDbContext.SaveChangesAsync();
-                return true;
+                var data = await _dbSet.FindAsync(id);
+                if (data is not null && data is TEntity entity)
+                {
+                    _dbSet.Remove(entity);
+                    return true;
+                }
+                return false;
             }
-            return false;
+            catch ( Exception ex )
+            {
+                throw new Exception(ex.Message, ex);
+            }
+
         }
 
         public async Task<IEnumerable<TEntity>> Read()
         {
-            return await _dbSet.ToListAsync() ?? [];
+            return await _dbSet.ToListAsync();
         }
 
-        public async Task<TEntity> ReadById(Guid id) => await _dbSet.SingleAsync(i => i.Id == id) ?? throw new Exception("");
+        public async Task<TEntity> ReadById(Guid id) => await _dbSet.SingleAsync(i => i.Id == id);
         
 
-        public async Task<bool> Update(Guid id, TEntity item)
+        public bool Update(Entity item)
         {
-            var data = await _dbSet.FindAsync(id);
-            if (data is not null && data is TEntity entity)
+            try
             {
-                _dbSet.Update(entity);
+                _systemDbContext.Entry(item).State = EntityState.Modified;
+                return true;
+            }
+            catch ( Exception ex)
+            {
+                throw new Exception(ex.Message, ex);
+            }
+        }
+
+        public async Task<bool> SaveChangesAsync()
+        {
+            try
+            {
                 await _systemDbContext.SaveChangesAsync();
                 return true;
             }
-            return false;
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message, ex);
+            }
+
         }
     }
 }

@@ -1,97 +1,79 @@
-import {
-  Flex,
-  Heading,
-  Input,
-  Button,
-  InputGroup,
-  Stack,
-  InputLeftElement,
-  chakra,
-  Box,
-  Link,
-  Avatar,
-  FormControl,
-  FormHelperText,
-  InputRightElement
-} from "@chakra-ui/react";
-
+import { Box, Text, Field, Input, Button, useStepsItemContext } from "@chakra-ui/react";
+import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
+import { FaGoogle } from "react-icons/fa";
+import { useState } from "react";
+import { LoginClient } from "./../Api/LoginClient";
 
 const LoginPage = () => {
+    const[username, setUserName] = useState("");
+    const[password, setPassword] = useState("");
+    const[error, setErrors] = useState([]);
+    const[usernameError, setUsernameError] = useState("");
+    const[passwordError, setPasswordError] = useState("");
+
+    const HandleLogin = async (e) => {
+        e.preventDefault();
+        if ( !username.trim() ){
+            setUsernameError("Username is fucking required");
+        }
+
+        if ( !password.trim() ) {
+            setPasswordError("Password is fucking required");
+        }
+        try {
+            const result = await LoginClient({
+                UserLogin: username,
+                Password: password
+            });
+            if ( result === 200 ) {
+                console.log("Successful login");
+            }
+            else {
+                console.log("Unsuccessful login");
+            }
+            debugger;
+        }
+        catch ( err ) {
+            console.log(err);
+        }
+    }
+
     return(
-            <Flex
-            flexDirection="column"
-            width="100wh"
-            height="100vh"
-            backgroundColor="gray.200"
-            justifyContent="center"
-            alignItems="center"
-            >
-            <Stack
-                flexDir="column"
-                mb="2"
-                justifyContent="center"
+        <div className="flex flex-col bg-gray-100 min-h-screen gap-20 items-center"> 
+            <UnAuthorizedHeader/>
+            <Box bg="white" 
+                boxAlign="center" 
+                w="xl" h="md" 
+                rounded="4xl"
+                display="flex"
+                flexDirection="column"
                 alignItems="center"
-            >
-                <Avatar bg="teal.500" />
-                <Heading color="teal.400">Welcome</Heading>
-                <Box minW={{ base: "90%", md: "468px" }}>
-                <form>
-                    <Stack
-                    spacing={4}
-                    p="1rem"
-                    backgroundColor="whiteAlpha.900"
-                    boxShadow="md"
-                    >
-                    <FormControl>
-                        <InputGroup>
-                        <InputLeftElement
-                            pointerEvents="none"
-                            children={<CFaUserAlt color="gray.300" />}
-                        />
-                        <Input type="email" placeholder="email address" />
-                        </InputGroup>
-                    </FormControl>
-                    <FormControl>
-                        <InputGroup>
-                        <InputLeftElement
-                            pointerEvents="none"
-                            color="gray.300"
-                            children={<CFaLock color="gray.300" />}
-                        />
-                        <Input
-                            type={showPassword ? "text" : "password"}
-                            placeholder="Password"
-                        />
-                        <InputRightElement width="4.5rem">
-                            <Button h="1.75rem" size="sm">
-                            {showPassword ? "Hide" : "Show"}
-                            </Button>
-                        </InputRightElement>
-                        </InputGroup>
-                        <FormHelperText textAlign="right">
-                        <Link>forgot password?</Link>
-                        </FormHelperText>
-                    </FormControl>
-                    <Button
-                        borderRadius={0}
-                        type="submit"
-                        variant="solid"
-                        colorScheme="teal"
-                        width="full"
-                    >
-                        Login
-                    </Button>
-                    </Stack>
+                gap="0">
+                <Text fontWeight="bold" pt="5" fontSize="2xl">Login</Text>
+                <form className="flex flex-col items-center gap-5" onSubmit={HandleLogin}>
+                    <Field.Root required invalid={!username} w="sm">
+                        <Field.Label>Username</Field.Label>
+                        <Input placeholder="Enter your username here" 
+                            value={username}
+                            onChange={(e) => setUserName(e.target.value)}/>
+                        <Field.ErrorText>{usernameError}</Field.ErrorText>
+                    </Field.Root>
+
+                    <Field.Root required invalid={!password} w="sm">
+                        <Field.Label>Password</Field.Label>
+                        <Input placeholder="Enter your password here" 
+                            type="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}/>
+                        <Field.ErrorText>{passwordError}</Field.ErrorText>
+                    </Field.Root>
+                    <Button type="submit" w="2xs">Login</Button>
                 </form>
-                </Box>
-            </Stack>
-            <Box>
-                New to us?{" "}
-                <Link color="teal.500" href="#">
-                Sign Up
-                </Link>
+                <Text color="blue.500" textDecoration="underline">Forgot your password?</Text>
+                <Text pt="3" mb="2">Or Login with</Text>
+                <FaGoogle size="24"/>
             </Box>
-            </Flex>
+        </div>
     );
 }
 

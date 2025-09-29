@@ -1,3 +1,5 @@
+import { Box, Button, List } from "@chakra-ui/react";
+import AuthorizedDrawer from "./SideDrawer";
 const AuthorizedHeader = () => {
     return(
         <Box h="14" 
@@ -11,7 +13,7 @@ const AuthorizedHeader = () => {
         gap="5"> 
             <List.Root display="flex" flexDirection="row" listStyleType="none" gap="5">
                 <List.Item>
-                    <Button height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}}>
+                    <Button color="black" height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white">
                         Home
                     </Button>
                 </List.Item>

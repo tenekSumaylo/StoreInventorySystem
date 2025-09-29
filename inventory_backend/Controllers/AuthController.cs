@@ -20,8 +20,7 @@ namespace inventory_backend.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthenticationService<LoginDto, RegisterDto> _basicAuthenticationService;
-        IAuthenticationService<AuthenticateResult, ExternalLoginInfo> _googleOten;
-
+        private readonly IAuthenticationService<AuthenticateResult, ExternalLoginInfo> _googleService;
         private readonly IValidator<LoginDto> _loginValidator;
         private readonly IValidator<RegisterDto> _registerValidator;
         private readonly SignInManager<Customer> _signinManager;
@@ -34,7 +33,7 @@ namespace inventory_backend.Controllers
             _basicAuthenticationService = basicService;
             _registerValidator = registerValidator;
             _signinManager = signinManager;
-            _googleOten = service;
+            _googleService = service;
         }
 
         [HttpPost("Login")]
@@ -96,6 +95,8 @@ namespace inventory_backend.Controllers
         }
 
         [HttpGet("GoogleCallBack")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GoogleCallBack()
         {
             var nota = await _signinManager.GetExternalAuthenticationSchemesAsync();
@@ -107,6 +108,12 @@ namespace inventory_backend.Controllers
                 return BadRequest();
             }
             return Ok();
+
+            // 
+            /*
+             * 
+             *  
+             */
         }
     }
 }

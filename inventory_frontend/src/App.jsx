@@ -11,6 +11,8 @@ import UnAuthorizedHeader from './components/layout/UnAuthorizedHeader'
 import UnAuthorizedHome from './Pages/Home'
 import RegisterPage from './Pages/Register'
 import LoginPage from './Pages/LoginPage'
+import AuthorizedHome from './Pages/AuthorizedHome'
+import ShoppingCartPage from './Pages/ShoppingCart'
 
 function App() {
   const [count, setCount] = useState(0)

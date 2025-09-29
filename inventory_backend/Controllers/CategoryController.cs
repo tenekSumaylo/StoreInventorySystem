@@ -21,6 +21,7 @@ namespace inventory_backend.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> Get()
         {
             return Ok(await _dbSet.ToListAsync() ?? []);

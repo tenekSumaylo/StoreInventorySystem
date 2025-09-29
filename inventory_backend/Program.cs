@@ -16,6 +16,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddCors(e =>
+{
+    e.AddPolicy("DevCors", p =>
+    {
+        p.WithOrigins("http://localhost:5173")
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowAnyOrigin();
+    });
+});
 
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
@@ -35,6 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.MapControllers();
+app.UseCors("DevCors");
 
 app.UseAuthentication();
 app.UseAuthorization();

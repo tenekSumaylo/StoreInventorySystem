@@ -14,7 +14,7 @@ const UnAuthorizedHeader = () => {
         gap="5"> 
             <List.Root display="flex" flexDirection="row" listStyleType="none" gap="5" alignItems="center">
                 <List.Item>
-                    <Button height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}}>
+                    <Button height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white" color="black">
                         Home
                     </Button>
                 </List.Item>
