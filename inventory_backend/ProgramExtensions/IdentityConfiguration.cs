@@ -15,8 +15,8 @@ namespace inventory_backend.ProgramExtensions
                 options.Password.RequireUppercase = true;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 12;
-            }).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<Customer>>()
-            .AddRoles<IdentityRole>();
+            }).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<Customer>>();
+
         }
     }
 }
