@@ -18,8 +18,8 @@ namespace inventory_backend.Authentication.GoogleAuthentication
         // this section is to be implemented
         public async Task<IdentityResult> CreateUser(ExternalLoginInfo data)
         {
-            var emailResult = _manager.FindByEmailAsync(data.Principal.FindFirstValue(ClaimTypes.Email)!);
-            if ( emailResult is null )
+            var emailResult = await _manager.FindByEmailAsync(data.Principal.FindFirstValue(ClaimTypes.Email)!);
+            if ( emailResult is not null )
             {
                 return IdentityResult.Failed( new IdentityError
                 {
@@ -29,12 +29,13 @@ namespace inventory_backend.Authentication.GoogleAuthentication
             }
             var user = new Customer
             {
-                FirstName = data.Principal.FindFirstValue(ClaimTypes.GivenName) ?? throw new Exception("First name is null"),
-                LastName = data.Principal.FindFirstValue(ClaimTypes.Surname) ?? throw new Exception("Last name is null..."),
-                Email = data.Principal.FindFirstValue(ClaimTypes.Email)
+                FirstName = data.Principal.FindFirstValue(ClaimTypes.GivenName) ?? throw new RegisterException("First name is null"),
+                LastName = data.Principal.FindFirstValue(ClaimTypes.Surname) ?? throw new RegisterException("Last name is null..."),
+                Email = data.Principal.FindFirstValue(ClaimTypes.Email) ?? throw new RegisterException("Email is invalid"),
+                UserName = data.Principal.FindFirstValue(ClaimTypes.Email)
             };
-            var result = await _manager.AddLoginAsync(user, data);
             var createAsync = await _manager.CreateAsync(user);
+            var result = await _manager.AddLoginAsync(user, data);
             return result.Succeeded && createAsync.Succeeded ? result : throw new RegisterException("Registration failed", result);
         }
 

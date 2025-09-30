@@ -9,9 +9,10 @@ namespace inventory_backend.Extensions.DbConfigurations
     {
         public static void Configure( this EntityTypeBuilder<ProductTag> builder )
         {
-            builder.HasKey(i => i.Id);
-            builder.HasIndex(i => i.Id);
-            builder.Property(i => i.Tag).HasDefaultValue("N/a").IsRequired();
+            builder.HasKey(i =>  new {i.Id, i.ProductId });
+            builder.HasIndex(i => new {i.Id, i.ProductId});
+            builder.HasOne(i => i.Tag).WithMany(b => b.ProductTags).HasForeignKey(b => b.Id);
+            builder.HasOne(i => i.Product).WithMany(b => b.Tags).HasForeignKey(b => b.ProductId);
         }
     }
 }

@@ -15,7 +15,7 @@ namespace inventory_backend.ProgramExtensions
             {
                 options.DefaultAuthenticateScheme =
                 options.DefaultChallengeScheme =
-                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = "Identity.External";
 
             })

@@ -7,7 +7,8 @@ const AuthorizedDrawer = () => {
     return(
         <Drawer.Root open={openCloseStatus} 
                 onOpenChange={(e) => setStatus(e.open)}
-                size="xs">
+                size="xs"
+                >
             <Drawer.Trigger asChild>
                 <Icon color="black">
                     <UserRound/>
@@ -16,7 +17,7 @@ const AuthorizedDrawer = () => {
             <Portal>
                 <Drawer.Backdrop/>
                 <Drawer.Positioner>
-                    <Drawer.Content bg="black">
+                    <Drawer.Content bg="white">
                         <Drawer.Header>
                             <Drawer.Title flex>
                                 <Flex gap={0} align="center">
@@ -52,13 +53,13 @@ const AuthorizedDrawer = () => {
                                             gap="5"
                                             pt="5"
                                             >
-                                        <List.Item color="white" spaceX="3" _hover={ {color: 'orange.500'}}> 
+                                        <List.Item color="Black" spaceX="3" _hover={ {color: 'orange.500'}}> 
                                             <Icon>
                                                 <HomeIcon/>
                                             </Icon>
                                             <span>Home</span>
                                         </List.Item>
-                                            <List.Item color="white" spaceX="3" _hover={ {color: 'orange.500'}}>
+                                            <List.Item color="Black" spaceX="3" _hover={ {color: 'orange.500'}}>
                                             <Icon>
                                                 <ShoppingCart/>
                                             </Icon>

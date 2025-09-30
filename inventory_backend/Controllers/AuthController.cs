@@ -3,15 +3,8 @@ using inventory_backend.Authentication;
 using inventory_backend.Authentication.GoogleAuthentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
-using inventory_backend.Models;
-using inventory_backend.Services.AuthServices;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
-using System.ComponentModel.DataAnnotations;
-using System.Security.Claims;
 
 namespace inventory_backend.Controllers
 {
@@ -88,7 +81,7 @@ namespace inventory_backend.Controllers
                     controller: "Auth",
                     values: new {ReturnUrl = "http://localhost:5166/swagger" }
             );
-            var properties = _googleService.ConfigureExternal("Google", redirectUrl);
+            var properties = _googleService.ConfigureExternal("Google", redirectUrl!);
             return new ChallengeResult("Google", properties);
         }
 

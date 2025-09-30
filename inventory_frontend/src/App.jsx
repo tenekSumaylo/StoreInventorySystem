@@ -13,17 +13,25 @@ import RegisterPage from './Pages/Register'
 import LoginPage from './Pages/LoginPage'
 import AuthorizedHome from './Pages/AuthorizedHome'
 import ShoppingCartPage from './Pages/ShoppingCart'
+import { BrowserRouter, Routes } from 'react-router'
+import { Route } from 'react-router'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Provider>
-      <div>
-        <AuthorizedHome/> 
-      </div>
-
-    </Provider>
+    <BrowserRouter>
+      <Provider>
+        <div>
+          <Routes>
+            <Route path={"/"} element={<UnAuthorizedHome/>}/>
+            <Route path= {"/Register"} element={<RegisterPage/>}/>
+            <Route path={"/Login"} element={<LoginPage/>}/>
+            <Route path={"/AuthorizedUser"} element={ <AuthorizedHome/>}/>
+          </Routes>
+        </div>
+      </Provider>
+    </BrowserRouter>
   )
 }
 

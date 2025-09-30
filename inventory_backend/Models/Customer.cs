@@ -9,5 +9,6 @@ namespace inventory_backend.Models
         public string LastName { get; set; } = string.Empty;
         public string? Address { get; set; }
         public DateOnly? DateOfBirth { get; set; }
+        public byte[]? ProfilePicture { get; set; }
     }
 }

@@ -11,7 +11,6 @@ export const LoginClient = async (loginInformation) => {
         }
     }
     catch (err) {
-        console.log("otin");
         console.log(err.message);
         debugger;
         return {

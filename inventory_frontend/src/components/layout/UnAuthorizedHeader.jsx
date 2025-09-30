@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import AuthorizedDrawer from "./SideDrawer";
 import { Box, Flex, Stack, Button, Menu, Avatar, List } from "@chakra-ui/react";
 
@@ -14,19 +15,25 @@ const UnAuthorizedHeader = () => {
         gap="5"> 
             <List.Root display="flex" flexDirection="row" listStyleType="none" gap="5" alignItems="center">
                 <List.Item>
-                    <Button height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white" color="black">
-                        Home
-                    </Button>
+                    <Link to="/">
+                        <Button height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white" color="black">
+                            Home
+                        </Button>
+                    </Link>
                 </List.Item>
                 <List.Item>
-                    <Button height="10" width="20" bg="black" color="white">
-                        Signin
-                    </Button>
+                    <Link to="/Login">
+                        <Button height="10" width="20" bg="black" color="white">
+                            Signin
+                        </Button>
+                    </Link>
                 </List.Item>
                 <List.Item>
-                    <Button height="10" width="20" bg="black" color="white">
-                        Signup
-                    </Button>
+                    <Link to="/Register">
+                        <Button height="10" width="20" bg="black" color="white">
+                            Signup
+                        </Button>
+                    </Link>
                 </List.Item>
             </List.Root>
         </Box>

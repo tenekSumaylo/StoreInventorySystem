@@ -157,6 +157,9 @@ namespace inventory_backend.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
+                    b.Property<byte[]>("ProductImage")
+                        .HasColumnType("varbinary(max)");
+
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -180,15 +183,14 @@ namespace inventory_backend.Migrations
                     b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Tag")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("nvarchar(max)")
-                        .HasDefaultValue("N/a");
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id", "ProductId");
 
-                    b.HasIndex("Id");
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("Id", "ProductId");
 
                     b.ToTable("ProductTags");
                 });
@@ -226,6 +228,21 @@ namespace inventory_backend.Migrations
                     b.HasIndex("ShoppingCartId");
 
                     b.ToTable("ShoppingCartItem");
+                });
+
+            modelBuilder.Entity("inventory_backend.Models.Tags", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Tag")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.Invoice", b =>
@@ -290,13 +307,21 @@ namespace inventory_backend.Migrations
 
             modelBuilder.Entity("inventory_backend.Models.ProductTag", b =>
                 {
-                    b.HasOne("inventory_backend.Models.Product", "Product")
-                        .WithMany("Tags")
+                    b.HasOne("inventory_backend.Models.Tags", "Tag")
+                        .WithMany("ProductTags")
                         .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("inventory_backend.Models.Product", "Product")
+                        .WithMany("Tags")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Product");
+
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.ShoppingCartItem", b =>
@@ -345,6 +370,11 @@ namespace inventory_backend.Migrations
             modelBuilder.Entity("inventory_backend.Models.ShoppingCart", b =>
                 {
                     b.Navigation("CartItems");
+                });
+
+            modelBuilder.Entity("inventory_backend.Models.Tags", b =>
+                {
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }

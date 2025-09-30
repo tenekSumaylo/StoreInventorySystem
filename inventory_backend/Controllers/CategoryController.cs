@@ -1,4 +1,5 @@
-﻿using inventory_backend.Data;
+﻿using inventory_backend.Categories;
+using inventory_backend.Data;
 using inventory_backend.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -9,30 +10,26 @@ namespace inventory_backend.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
     public class CategoryController : ControllerBase
     {
-        private readonly InventorySystemDbContext _context;
-        private readonly DbSet<Category> _dbSet;
-        public CategoryController( InventorySystemDbContext context )
+        private readonly ICategoryService _categoryService;
+        public CategoryController(ICategoryService service )
         {
-            _context = context;
-            _dbSet = _context.Set<Category>();
+            _categoryService = service;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> Get()
         {
-            return Ok(await _dbSet.ToListAsync() ?? []);
+            try
+            {
+                return Ok(await _categoryService.GetAllCategories());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ex.Message, ex });
+            }
         }
-
-        [HttpPost]
-        public async Task<IActionResult> Add(Category category)
-        {
-            await _dbSet.AddAsync(category);
-            await _context.SaveChangesAsync();
-            return Ok(category);
-        } 
     }
 }

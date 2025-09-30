@@ -36,6 +36,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<LoginDtoValidator>();
 builder.Services.ConfigureIdentityConfiguration();
 builder.Services.ConfigureAuthentication(builder.Configuration);
 
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

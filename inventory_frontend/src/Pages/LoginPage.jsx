@@ -1,8 +1,11 @@
-import { Box, Text, Field, Input, Button, useStepsItemContext } from "@chakra-ui/react";
+import { Box, Text, Field, Input, Button, useToastStyles } from "@chakra-ui/react";
 import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
 import { FaGoogle } from "react-icons/fa";
 import { useState } from "react";
 import { LoginClient } from "./../Api/LoginClient";
+import { useNavigate } from "react-router";
+import LoginHandler from "./../components/login/loginHandler";
+import { toaster, Toaster } from "./../components/ui/toaster";
 
 const LoginPage = () => {
     const[username, setUserName] = useState("");
@@ -10,37 +13,40 @@ const LoginPage = () => {
     const[error, setErrors] = useState([]);
     const[usernameError, setUsernameError] = useState("");
     const[passwordError, setPasswordError] = useState("");
+    const[invalidUsername, setInvalidUsername] = useState(false);
+    const[invalidPassword, setInvalidPassword] = useState(false);
+    const navigate = useNavigate();
 
     const HandleLogin = async (e) => {
         e.preventDefault();
-        if ( !username.trim() ){
-            setUsernameError("Username is fucking required");
+        const result = await LoginHandler({
+                                        username: username,
+                                        password: password
+                                    });
+        if (result) {
+            toaster.create({
+                description: "Login Successful!",
+                type: "info",
+                closable: true
+            });
+            
+            navigate("/AuthorizedUser")
+        }
+        else {
+            toaster.create({
+                description: "Login Unsuccessful.",
+                type: "error",
+                closable: true
+            });
+            console.log("norwen");
         }
 
-        if ( !password.trim() ) {
-            setPasswordError("Password is fucking required");
-        }
-        try {
-            const result = await LoginClient({
-                UserLogin: username,
-                Password: password
-            });
-            if ( result === 200 ) {
-                console.log("Successful login");
-            }
-            else {
-                console.log("Unsuccessful login");
-            }
-            debugger;
-        }
-        catch ( err ) {
-            console.log(err);
-        }
     }
 
     return(
         <div className="flex flex-col bg-gray-100 min-h-screen gap-20 items-center"> 
             <UnAuthorizedHeader/>
+            <Toaster/>
             <Box bg="white" 
                 boxAlign="center" 
                 w="xl" h="md" 
