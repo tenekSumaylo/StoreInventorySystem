@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using inventory_backend.Authentication;
+using inventory_backend.Authentication.GoogleAuthentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
 using inventory_backend.Models;
@@ -14,25 +15,22 @@ using System.Security.Claims;
 
 namespace inventory_backend.Controllers
 {
-
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
         private readonly IAuthenticationService<LoginDto, RegisterDto> _basicAuthenticationService;
-        private readonly IAuthenticationService<AuthenticateResult, ExternalLoginInfo> _googleService;
+        private readonly IGoogleAuthenticationService _googleService;
         private readonly IValidator<LoginDto> _loginValidator;
         private readonly IValidator<RegisterDto> _registerValidator;
-        private readonly SignInManager<Customer> _signinManager;
 
         public AuthController( IValidator<LoginDto> loginValidator, IAuthenticationService<LoginDto, RegisterDto> basicService
-            , IValidator<RegisterDto> registerValidator, SignInManager<Customer> signinManager,
-            IAuthenticationService<AuthenticateResult, ExternalLoginInfo>  service)
+            , IValidator<RegisterDto> registerValidator,
+            IGoogleAuthenticationService service)
         {
             _loginValidator = loginValidator;
             _basicAuthenticationService = basicService;
             _registerValidator = registerValidator;
-            _signinManager = signinManager;
             _googleService = service;
         }
 
@@ -89,8 +87,8 @@ namespace inventory_backend.Controllers
                     action: "GoogleCallBack",
                     controller: "Auth",
                     values: new {ReturnUrl = "http://localhost:5166/swagger" }
-                );
-            var properties = _signinManager.ConfigureExternalAuthenticationProperties("Google", redirectUrl);
+            );
+            var properties = _googleService.ConfigureExternal("Google", redirectUrl);
             return new ChallengeResult("Google", properties);
         }
 
@@ -99,21 +97,34 @@ namespace inventory_backend.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GoogleCallBack()
         {
-            var nota = await _signinManager.GetExternalAuthenticationSchemesAsync();
-            var externalInfo = await _signinManager.GetExternalLoginInfoAsync();
-            var context = await HttpContext.AuthenticateAsync("Google");
-            var name = context?.Principal?.FindFirstValue(ClaimTypes.Email);
-            if ( externalInfo is null )
+            try
             {
-                return BadRequest();
+                var info = await _googleService.GetExternalInformation();
+                if (info is null)
+                {
+                    throw new LoginException("Google login failed...");
+                }
+                
+                var tryCreate = await _googleService.CreateUser(info) ?? throw new LoginException("Identity result cannot be configured... and unknown");
+                var authData = await HttpContext.AuthenticateAsync("Google");
+                var token = await _googleService.Login(authData) ?? throw new LoginException("Login failure, token not found");
+                Response.Cookies.Append("jwt-auth", token, new CookieOptions
+                {
+                    Secure = true,
+                    HttpOnly = true,
+                    Expires = DateTime.UtcNow.AddDays(1)
+                });
+                return Ok("Login successful");
             }
-            return Ok();
+            catch ( LoginException ex )
+            {
+                return BadRequest( new { ex.Message } );  
+            }
+            catch ( Exception ex )
+            {
+                return BadRequest( new { ex.Message, ex.StackTrace } );
+            }
 
-            // 
-            /*
-             * 
-             *  
-             */
         }
     }
 }

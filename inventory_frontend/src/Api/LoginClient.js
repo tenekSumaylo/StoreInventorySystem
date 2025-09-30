@@ -16,7 +16,7 @@ export const LoginClient = async (loginInformation) => {
         debugger;
         return {
             status: err.response.status,
-            error: err.respose.data
+            error: err.response.data
         };
     }
     debugger;

@@ -14,7 +14,7 @@ namespace inventory_backend.ProgramExtensions
         {
             services.AddScoped<IAuthenticationService<LoginDto, RegisterDto>, BasicAuthenticationService>();
             services.AddScoped<ITokenService, TokenService>();
-            services.AddScoped<IAuthenticationService<AuthenticateResult, ExternalLoginInfo>, GoogleAuthenticationService>(); 
+            services.AddScoped<IGoogleAuthenticationService, GoogleAuthenticationService>(); 
         }
     }
 }

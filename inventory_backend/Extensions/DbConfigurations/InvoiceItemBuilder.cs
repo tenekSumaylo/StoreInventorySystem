@@ -8,6 +8,7 @@ namespace inventory_backend.Extensions.DbConfigurations
     {
         public static void Configure( this EntityTypeBuilder<InvoiceItem> modelBuilder )
         {
+            modelBuilder.HasKey( x => x.Id );
             modelBuilder.Property(i => i.Quantity).HasDefaultValue(0).IsRequired();
         }
     }

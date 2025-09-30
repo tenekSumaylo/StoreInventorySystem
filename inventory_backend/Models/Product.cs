@@ -12,5 +12,8 @@ namespace inventory_backend.Models
         public double Price { get;set; }
         public int Stock { get; set; }
         public ICollection<ProductTag>? Tags { get; set; } 
+
+        // for cart item
+        public ICollection<ShoppingCartItem>? CartItems { get; set; }
     }
 }

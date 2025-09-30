@@ -20,7 +20,7 @@ function App() {
   return (
     <Provider>
       <div>
-        <LoginPage/> 
+        <AuthorizedHome/> 
       </div>
 
     </Provider>
