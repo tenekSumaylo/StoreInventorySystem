@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using FluentValidation;
 using inventory_backend.Validations;
 using inventory_backend.ProgramExtensions;
+using inventory_backend.Roles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +46,21 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+using (var serviceScope = app.Services.CreateScope())
+{
+    var services = serviceScope.ServiceProvider;
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    if ( !await roleManager.RoleExistsAsync(AppRoles.Customer))
+    {
+        await roleManager.CreateAsync(new IdentityRole(AppRoles.Customer));
+    }
+
+    if ( !await roleManager.RoleExistsAsync(AppRoles.Employee))
+    {
+        await roleManager.CreateAsync(new IdentityRole(AppRoles.Employee));
+    }
+}
+
 app.MapControllers();
 app.UseCors("DevCors");
 

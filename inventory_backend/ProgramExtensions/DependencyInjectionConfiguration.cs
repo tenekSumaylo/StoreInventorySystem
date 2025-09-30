@@ -32,6 +32,8 @@ namespace inventory_backend.ProgramExtensions
             {
                 i.AddProfile<ProductProfile>();
                 i.AddProfile<CategoryProfile>();
+                i.AddProfile<CustomerProfile>();
+                i.AddProfile<EmployeeProfile>();
             });
         }
     }

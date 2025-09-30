@@ -1,4 +1,4 @@
-﻿using inventory_backend.Models;
+﻿using inventory_backend.Models.Users;
 using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -12,7 +12,7 @@ namespace inventory_backend.TokenServices
         private readonly IConfiguration _configuration;
 
         public TokenService(IConfiguration configuration) => _configuration = configuration;
-        public string? GenerateToken(Customer user)
+        public string? GenerateToken(ApplicationUser user, IList<string>? roles)
         {
             var secret = _configuration["JwtConfig:Secret"];
             var issuer = _configuration["JwtConfig:Issuer"];
@@ -21,6 +21,16 @@ namespace inventory_backend.TokenServices
             if (secret is null || issuer is null || audiences is null)
             {
                 throw new ApplicationException("Jwt is not configured properly");
+            }
+            var claims = new List<Claim> {
+
+                new Claim(ClaimTypes.Name, user.UserName!),
+                new Claim(ClaimTypes.NameIdentifier, $"{user.FirstName} {user.LastName}")
+            };
+
+            foreach ( var role in roles )
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
             }
 
             var signinKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret));

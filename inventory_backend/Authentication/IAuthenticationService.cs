@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using inventory_backend.Dtos;
+using Microsoft.AspNetCore.Identity;
 
 namespace inventory_backend.Authentication
 {
@@ -8,5 +9,6 @@ namespace inventory_backend.Authentication
     {
         Task<string?> Login(TLogin data);
         Task<IdentityResult> CreateUser(TCreate data);
+        Task<IdentityResult> CreateAdmin(TCreate data);
     }
 }

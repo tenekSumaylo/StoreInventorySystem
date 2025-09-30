@@ -20,7 +20,6 @@ namespace inventory_backend.ProgramExtensions
 
             })
                 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie("Identity.External")
                 .AddJwtBearer(options =>
             {
                 var secret = config["JwtConfig:Secret"];

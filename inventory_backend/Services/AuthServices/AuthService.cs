@@ -1,7 +1,7 @@
 ﻿using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
 using inventory_backend.Mapper.Extensions;
-using inventory_backend.Models;
+using inventory_backend.Models.Users;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

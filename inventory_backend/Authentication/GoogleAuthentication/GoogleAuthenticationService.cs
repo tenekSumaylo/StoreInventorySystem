@@ -1,5 +1,5 @@
 ﻿using inventory_backend.Exceptions;
-using inventory_backend.Models;
+using inventory_backend.Models.Users;
 using inventory_backend.TokenServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
@@ -8,11 +8,11 @@ using System.Security.Claims;
 
 namespace inventory_backend.Authentication.GoogleAuthentication
 {
-    public class GoogleAuthenticationService(UserManager<Customer> manager, 
-        SignInManager<Customer> service, ITokenService tokenService) : IGoogleAuthenticationService
+    public class GoogleAuthenticationService(UserManager<ApplicationUser> manager, 
+        SignInManager<ApplicationUser> service, ITokenService tokenService) : IGoogleAuthenticationService
     {
-        private readonly UserManager<Customer> _manager = manager;
-        private readonly SignInManager<Customer> _signinManager = service;
+        private readonly UserManager<ApplicationUser> _manager = manager;
+        private readonly SignInManager<ApplicationUser> _signinManager = service;
         private readonly ITokenService _tokenService = tokenService;
 
         // this section is to be implemented
@@ -47,7 +47,8 @@ namespace inventory_backend.Authentication.GoogleAuthentication
                 var result = await _manager.FindByLoginAsync(info.LoginProvider, info.ProviderKey);
                 if ( result is not null )
                 {
-                    return _tokenService.GenerateToken(result);
+                    var roles = await _manager.GetRolesAsync(result);
+                    return _tokenService.GenerateToken(result, roles);
                 }
 
             }
@@ -59,5 +60,9 @@ namespace inventory_backend.Authentication.GoogleAuthentication
 
         public async Task<ExternalLoginInfo?> GetExternalInformation() => await _signinManager.GetExternalLoginInfoAsync();
 
+        public Task<IdentityResult> CreateAdmin(ExternalLoginInfo data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

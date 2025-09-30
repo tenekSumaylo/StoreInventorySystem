@@ -1,9 +1,9 @@
-﻿using inventory_backend.Models;
+﻿using inventory_backend.Models.Users;
 
 namespace inventory_backend.TokenServices
 {
     public interface ITokenService
     {
-        string? GenerateToken(Customer user);
+        string? GenerateToken(ApplicationUser user, IList<string>? roles);
     }
 }

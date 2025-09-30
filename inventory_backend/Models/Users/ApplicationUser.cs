@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
 
-namespace inventory_backend.Models
+namespace inventory_backend.Models.Users
 {
-    public class Customer : IdentityUser
+    public abstract class ApplicationUser : IdentityUser
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;

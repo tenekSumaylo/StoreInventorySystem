@@ -1,5 +1,5 @@
 ﻿using inventory_backend.Data;
-using inventory_backend.Models;
+using inventory_backend.Models.Users;
 using Microsoft.AspNetCore.Identity;
 
 namespace inventory_backend.ProgramExtensions
@@ -8,14 +8,14 @@ namespace inventory_backend.ProgramExtensions
     {
         public static void ConfigureIdentityConfiguration(this IServiceCollection services)
         {
-            services.AddIdentityCore<Customer>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
                 options.Password.RequireLowercase = true;
                 options.Password.RequireUppercase = true;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 12;
-            }).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<Customer>>();
+            }).AddEntityFrameworkStores<IdentityDbContext>().AddDefaultTokenProviders().AddSignInManager<SignInManager<ApplicationUser>>();
 
         }
     }
