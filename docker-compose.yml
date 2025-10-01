@@ -1,0 +1,54 @@
+services:
+  inventory_backend:
+    build:
+      context: ./inventory_backend
+      dockerfile: Dockerfile
+    ports:
+    - 5166:8080
+    depends_on:
+    - sqlserver
+
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+    - storenetwork
+    restart: on-failure
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+        SA_PASSWORD: "Strong@12345!"
+        ACCEPT_EULA: "Y"
+    ports:
+    - "1433:1433"
+    volumes:
+    - sqlvolume:/var/opt/mssql
+    networks:
+    - storenetwork
+
+  inventory_frontend_dev:
+    build:
+      context: ./inventory_frontend
+      dockerfile: Dockerfile.dev
+
+    ports:
+    - 5173:5173
+
+    depends_on:
+    - inventory_backend
+
+    networks:
+    - storenetwork
+
+    develop:
+        watch:
+          - path: .
+            action: sync
+            target: /app
+
+
+networks:
+    storenetwork:
+    
+volumes:
+    sqlvolume:

@@ -28,7 +28,7 @@ namespace inventory_backend.TokenServices
                 new Claim(ClaimTypes.NameIdentifier, $"{user.FirstName} {user.LastName}")
             };
 
-            foreach ( var role in roles )
+            foreach ( var role in roles! )
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
@@ -37,11 +37,7 @@ namespace inventory_backend.TokenServices
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                    new Claim(ClaimTypes.Name, user.UserName!),
-                    new Claim(ClaimTypes.NameIdentifier, $"{user.FirstName} {user.LastName}")
-                }),
+                Subject = new ClaimsIdentity(claims),
                 Issuer = issuer,
                 Audience = audiences,
                 Expires = DateTime.UtcNow.AddDays(1),

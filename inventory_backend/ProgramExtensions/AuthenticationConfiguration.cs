@@ -40,6 +40,18 @@ namespace inventory_backend.ProgramExtensions
                     ValidIssuer = issuer,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret))
                 };
+
+                options.Events = new JwtBearerEvents
+                {
+                    OnMessageReceived = context =>
+                    {
+                        if (context.Request.Cookies.ContainsKey("jwt-auth"))
+                        {
+                            context.Token = context.Request.Cookies["jwt-auth"];
+                        }
+                        return Task.CompletedTask;
+                    }
+                };
             })
             .AddGoogle(googleOptions =>
             {

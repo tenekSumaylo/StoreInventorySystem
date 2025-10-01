@@ -59,10 +59,5 @@ namespace inventory_backend.Authentication.GoogleAuthentication
             _signinManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
 
         public async Task<ExternalLoginInfo?> GetExternalInformation() => await _signinManager.GetExternalLoginInfoAsync();
-
-        public Task<IdentityResult> CreateAdmin(ExternalLoginInfo data)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

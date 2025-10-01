@@ -9,6 +9,5 @@ namespace inventory_backend.Authentication
     {
         Task<string?> Login(TLogin data);
         Task<IdentityResult> CreateUser(TCreate data);
-        Task<IdentityResult> CreateAdmin(TCreate data);
     }
 }

@@ -24,7 +24,7 @@ builder.Services.AddCors(e =>
         p.WithOrigins("http://localhost:5173")
         .AllowAnyHeader()
         .AllowAnyMethod()
-        .AllowAnyOrigin();
+        .AllowCredentials();
     });
 });
 
@@ -49,7 +49,11 @@ if (app.Environment.IsDevelopment())
 using (var serviceScope = app.Services.CreateScope())
 {
     var services = serviceScope.ServiceProvider;
+    var appDbContext = services.GetRequiredService<InventorySystemDbContext>();
+    var identityContext = services.GetRequiredService<IdentityDbContext>();
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    appDbContext.Database.EnsureCreated();
+    identityContext.Database.EnsureCreated();
     if ( !await roleManager.RoleExistsAsync(AppRoles.Customer))
     {
         await roleManager.CreateAsync(new IdentityRole(AppRoles.Customer));
@@ -59,6 +63,7 @@ using (var serviceScope = app.Services.CreateScope())
     {
         await roleManager.CreateAsync(new IdentityRole(AppRoles.Employee));
     }
+
 }
 
 app.MapControllers();

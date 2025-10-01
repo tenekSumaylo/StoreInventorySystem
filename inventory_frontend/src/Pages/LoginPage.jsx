@@ -23,13 +23,12 @@ const LoginPage = () => {
                                         username: username,
                                         password: password
                                     });
-        if (result) {
+        if (result.status === 200) {
             toaster.create({
                 description: "Login Successful!",
                 type: "info",
                 closable: true
             });
-            
             navigate("/AuthorizedUser")
         }
         else {

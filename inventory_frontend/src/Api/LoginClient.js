@@ -7,7 +7,7 @@ export const LoginClient = async (loginInformation) => {
         console.log(loginInformation.Password);
         const result = await axiosClient.post("/Auth/Login", loginInformation);
         if ( result.status === 200 ) {
-            return result.status;
+            return { status: result.status };
         }
     }
     catch (err) {
@@ -19,4 +19,21 @@ export const LoginClient = async (loginInformation) => {
         };
     }
     debugger;
+}
+
+export const LoginCheck = async() => {
+    try {
+        const result = await axiosClient.get("/Auth/Check")
+        if ( result.status === 200 ) {
+            return {
+                status: result.status,
+                isCustomer: result.data.isCustomer,
+                isEmployee: result.data.isEmployee
+            };
+        }
+    }
+    catch (error) {
+        return { status: error.response.status };
+    }
+
 }

@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\googleauthentication\\googleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:authentication\\googleauthentication\\googleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\categories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:categories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\basicauthentication\\basicauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:authentication\\basicauthentication\\basicauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\dependencyinjectionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\dependencyinjectionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\dbcontextconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\dbcontextconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\validations\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:validations\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,24 +123,8 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\googleauthentication\\igoogleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:authentication\\googleauthentication\\igoogleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\googleauthentication\\googleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:authentication\\googleauthentication\\googleauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\basicauthentication\\basicauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:authentication\\basicauthentication\\basicauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:tokenservices\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\invoicerepository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,20 +143,8 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:inventory_backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\dependencyinjectionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\dependencyinjectionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930153422_TcpActivated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\IdentityDb\\20250930153422_TcpActivated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:data\\inventorysystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\migrations\\20250930084525_profilepictureupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,10 +215,6 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\addswaggergenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\programextensions\\dbcontextconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:programextensions\\dbcontextconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930135340_SeparatedCustomerAndEmployeev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\IdentityDb\\20250930135340_SeparatedCustomerAndEmployeev1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -215,14 +267,6 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\extensions\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -247,24 +291,12 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\categories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:categories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -287,10 +319,6 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:exceptions\\registerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\validations\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:validations\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\validations\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:validations\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -303,28 +331,12 @@
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\mapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:mapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:services\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\extensions\\dbconfigurations\\productbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -447,6 +459,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\migrations\\20250930053928_removalofindexusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\20250930053928_removalofindexusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|d:\\programming repository\\storeinventorysystem\\inventory_backend\\migrations\\identitydb\\20250930161256_newdbguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BF4693-08F5-4901-B3EA-9266BD2A60CF}|inventory_backend.csproj|solutionrelative:migrations\\identitydb\\20250930161256_newdbguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -456,7 +472,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -475,112 +491,252 @@
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.532Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\CategoryDto.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\CategoryDto.cs",
-              "RelativeToolTip": "Dtos\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "20250930160918_ChangeBackToGuid.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs",
+              "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs",
+              "RelativeToolTip": "Migrations\\IdentityDb\\20250930160918_ChangeBackToGuid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:52:50.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T16:09:18.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductRequestDto.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\ProductRequestDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\ProductRequestDto.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\ProductRequestDto.cs",
-              "RelativeToolTip": "Dtos\\ProductRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:41:05.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserResponseDto.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\UserResponseDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UserResponseDto.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\UserResponseDto.cs",
-              "RelativeToolTip": "Dtos\\UserResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T05:13:31.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:22:18.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Users\\Employee.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Employee.cs",
-              "RelativeToolTip": "Models\\Users\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:46:23.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Users\\Customer.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Customer.cs",
-              "RelativeToolTip": "Models\\Users\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:13:46.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\Users\\ApplicationUser.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\Users\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:45:28.636Z",
+              "WhenOpened": "2025-09-02T08:05:59.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IdentityDbContext.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\IdentityDbContext.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
+              "RelativeToolTip": "Data\\IdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:53:38.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:31:12.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "Mapper\\CustomerProfile.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\CustomerProfile.cs",
+              "RelativeToolTip": "Mapper\\CustomerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:59:53.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDtoExtensions.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "RelativeDocumentMoniker": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "RelativeToolTip": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:50:54.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "Models\\Entity.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
+              "RelativeToolTip": "Models\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:46:27.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoogleAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
+              "RelativeToolTip": "Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:12:40.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20250930161256_NewDbGuid.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930161256_NewDbGuid.cs",
+              "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930161256_NewDbGuid.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930161256_NewDbGuid.cs",
+              "RelativeToolTip": "Migrations\\IdentityDb\\20250930161256_NewDbGuid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T16:12:57.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Categories\\ICategoryService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\ICategoryService.cs",
+              "RelativeToolTip": "Categories\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:55:41.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Categories\\CategoryService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\CategoryService.cs",
+              "RelativeToolTip": "Categories\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:55:50.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasicAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
+              "RelativeToolTip": "Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:05:07.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventorySystemDbContext.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\InventorySystemDbContext.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
+              "RelativeToolTip": "Data\\InventorySystemDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAlwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:42:04.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbContextConfiguration.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DbContextConfiguration.cs",
+              "RelativeDocumentMoniker": "ProgramExtensions\\DbContextConfiguration.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DbContextConfiguration.cs",
+              "RelativeToolTip": "ProgramExtensions\\DbContextConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:42:10.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IdentityConfiguration.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\IdentityConfiguration.cs",
+              "RelativeDocumentMoniker": "ProgramExtensions\\IdentityConfiguration.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\IdentityConfiguration.cs",
+              "RelativeToolTip": "ProgramExtensions\\IdentityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:40:34.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjectionConfiguration.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DependencyInjectionConfiguration.cs",
+              "RelativeDocumentMoniker": "ProgramExtensions\\DependencyInjectionConfiguration.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DependencyInjectionConfiguration.cs",
+              "RelativeToolTip": "ProgramExtensions\\DependencyInjectionConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:44:49.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:18:32.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeProfile.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\EmployeeProfile.cs",
+              "RelativeDocumentMoniker": "Mapper\\EmployeeProfile.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\EmployeeProfile.cs",
+              "RelativeToolTip": "Mapper\\EmployeeProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T16:00:47.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository\\GenericRepository.cs",
@@ -593,7 +749,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\ApplicationUser.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\Users\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:45:28.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\Customer.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Customer.cs",
+              "RelativeToolTip": "Models\\Users\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T14:13:46.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\Employee.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Users\\Employee.cs",
+              "RelativeToolTip": "Models\\Users\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:46:23.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\IAuthService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:04:43.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\RegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validations\\RegisterDtoValidator.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\RegisterDtoValidator.cs",
+              "RelativeToolTip": "Validations\\RegisterDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:23:06.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "Mapper\\ProductProfile.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\ProductProfile.cs",
+              "RelativeToolTip": "Mapper\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:24:05.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:22:18.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserResponseDto.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\UserResponseDto.cs",
+              "RelativeToolTip": "Dtos\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:13:31.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductRequestDto.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\ProductRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductRequestDto.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\ProductRequestDto.cs",
+              "RelativeToolTip": "Dtos\\ProductRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T01:41:05.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CategoryDto.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\CategoryDto.cs",
+              "RelativeToolTip": "Dtos\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:52:50.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\TokenServices\\TokenService.cs",
               "RelativeDocumentMoniker": "TokenServices\\TokenService.cs",
@@ -601,12 +877,23 @@
               "RelativeToolTip": "TokenServices\\TokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:24:19.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T14:24:19.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:04:30.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "IGoogleAuthenticationService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\GoogleAuthentication\\IGoogleAuthenticationService.cs",
               "RelativeDocumentMoniker": "Authentication\\GoogleAuthentication\\IGoogleAuthenticationService.cs",
@@ -614,50 +901,11 @@
               "RelativeToolTip": "Authentication\\GoogleAuthentication\\IGoogleAuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T13:09:48.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:09:48.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GoogleAuthenticationService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
-              "RelativeToolTip": "Authentication\\GoogleAuthentication\\GoogleAuthenticationService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewAsAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:12:40.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasicAuthenticationService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
-              "RelativeToolTip": "Authentication\\BasicAuthentication\\BasicAuthenticationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA0wCQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:05:07.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Authentication\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "Authentication\\IAuthenticationService.cs",
@@ -665,64 +913,11 @@
               "RelativeToolTip": "Authentication\\IAuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:02:57.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T14:02:57.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAUwDEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:05:59.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DependencyInjectionConfiguration.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DependencyInjectionConfiguration.cs",
-              "RelativeDocumentMoniker": "ProgramExtensions\\DependencyInjectionConfiguration.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DependencyInjectionConfiguration.cs",
-              "RelativeToolTip": "ProgramExtensions\\DependencyInjectionConfiguration.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:44:49.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IdentityConfiguration.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\IdentityConfiguration.cs",
-              "RelativeDocumentMoniker": "ProgramExtensions\\IdentityConfiguration.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\IdentityConfiguration.cs",
-              "RelativeToolTip": "ProgramExtensions\\IdentityConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:40:34.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "InventorySystemDbContext.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\InventorySystemDbContext.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\InventorySystemDbContext.cs",
-              "RelativeToolTip": "Data\\InventorySystemDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\TokenServices\\ITokenService.cs",
               "RelativeDocumentMoniker": "TokenServices\\ITokenService.cs",
@@ -730,12 +925,11 @@
               "RelativeToolTip": "TokenServices\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:23:54.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T14:23:54.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "inventory_backend.http",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\inventory_backend.http",
               "RelativeDocumentMoniker": "inventory_backend.http",
@@ -743,12 +937,11 @@
               "RelativeToolTip": "inventory_backend.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-09-02T00:47:10.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:47:10.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "InvoiceRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\InvoiceRepository.cs",
               "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
@@ -756,25 +949,11 @@
               "RelativeToolTip": "Repository\\InvoiceRepository\\InvoiceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:07:30.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T07:07:30.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IdentityDbContext.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\IdentityDbContext.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Data\\IdentityDbContext.cs",
-              "RelativeToolTip": "Data\\IdentityDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:53:38.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "20250930153422_TcpActivated.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930153422_TcpActivated.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930153422_TcpActivated.cs",
@@ -782,12 +961,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930153422_TcpActivated.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:34:23.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:34:23.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "20250913161306_LatestDb.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
@@ -795,12 +973,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250913161306_LatestDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T16:13:06.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T16:13:06.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "20250930084525_ProfilePictureUpdate.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250930084525_ProfilePictureUpdate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250930084525_ProfilePictureUpdate.cs",
@@ -808,12 +985,11 @@
               "RelativeToolTip": "Migrations\\20250930084525_ProfilePictureUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:45:25.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:45:25.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "InvoiceBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
@@ -821,12 +997,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\InvoiceBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:18:32.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "EmployeeBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\EmployeeBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\EmployeeBuilder.cs",
@@ -834,12 +1009,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\EmployeeBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:50:43.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:50:43.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "AppRoles.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Roles\\AppRoles.cs",
               "RelativeDocumentMoniker": "Roles\\AppRoles.cs",
@@ -847,12 +1021,11 @@
               "RelativeToolTip": "Roles\\AppRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:56:30.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:56:30.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "AuthenticationConfiguration.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\AuthenticationConfiguration.cs",
               "RelativeDocumentMoniker": "ProgramExtensions\\AuthenticationConfiguration.cs",
@@ -860,12 +1033,11 @@
               "RelativeToolTip": "ProgramExtensions\\AuthenticationConfiguration.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwBUAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:34:21.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T08:34:21.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "20250930142812_TpcLatest.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930142812_TpcLatest.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930142812_TpcLatest.cs",
@@ -873,12 +1045,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930142812_TpcLatest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:28:13.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:28:13.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "InvoiceItemBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
@@ -886,12 +1057,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\InvoiceItemBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:18:32.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "CustomerBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CustomerBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
@@ -899,12 +1069,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\CustomerBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:18:32.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "CategoryBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\CategoryBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
@@ -912,12 +1081,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\CategoryBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:18:32.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "20250930142627_TpcMigrateV1.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930142627_TpcMigrateV1.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930142627_TpcMigrateV1.cs",
@@ -925,12 +1093,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930142627_TpcMigrateV1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:26:28.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:26:28.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "OrderBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\OrderBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\OrderBuilder.cs",
@@ -938,12 +1105,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\OrderBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T13:42:43.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:42:43.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "OrderItemBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\OrderItemBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\OrderItemBuilder.cs",
@@ -951,12 +1117,11 @@
               "RelativeToolTip": "Extensions\\DbConfigurations\\OrderItemBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T13:42:53.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:42:53.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "20250930142314_TableChange.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930142314_TableChange.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930142314_TableChange.cs",
@@ -964,12 +1129,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930142314_TableChange.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:23:14.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:23:14.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "20250930142140_Tpc.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930142140_Tpc.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930142140_Tpc.cs",
@@ -977,12 +1141,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930142140_Tpc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:21:40.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:21:40.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "20250930135234_SeparatedCustomerAndEmployee.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930135234_SeparatedCustomerAndEmployee.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930135234_SeparatedCustomerAndEmployee.cs",
@@ -990,12 +1153,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930135234_SeparatedCustomerAndEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:52:34.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:52:34.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "AddSwaggerGenConfiguration.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\AddSwaggerGenConfiguration.cs",
               "RelativeDocumentMoniker": "ProgramExtensions\\AddSwaggerGenConfiguration.cs",
@@ -1003,25 +1165,11 @@
               "RelativeToolTip": "ProgramExtensions\\AddSwaggerGenConfiguration.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvwsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:38:23.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T08:38:23.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DbContextConfiguration.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DbContextConfiguration.cs",
-              "RelativeDocumentMoniker": "ProgramExtensions\\DbContextConfiguration.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\ProgramExtensions\\DbContextConfiguration.cs",
-              "RelativeToolTip": "ProgramExtensions\\DbContextConfiguration.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:42:10.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "20250930135340_SeparatedCustomerAndEmployeev1.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930135340_SeparatedCustomerAndEmployeev1.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930135340_SeparatedCustomerAndEmployeev1.cs",
@@ -1029,12 +1177,11 @@
               "RelativeToolTip": "Migrations\\IdentityDb\\20250930135340_SeparatedCustomerAndEmployeev1.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:53:41.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:53:41.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 56,
               "Title": "20250930003821_JunctionTable.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250930003821_JunctionTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250930003821_JunctionTable.cs",
@@ -1042,12 +1189,11 @@
               "RelativeToolTip": "Migrations\\20250930003821_JunctionTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:38:21.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T00:38:21.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -1055,12 +1201,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:18:32.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T00:18:32.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 57,
               "Title": "IInvoiceRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceRepository\\IInvoiceRepository.cs",
               "RelativeDocumentMoniker": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
@@ -1068,12 +1213,11 @@
               "RelativeToolTip": "Repository\\InvoiceRepository\\IInvoiceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:07:06.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T07:07:06.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 63,
               "Title": "IEntity.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\IEntity.cs",
               "RelativeDocumentMoniker": "Models\\IEntity.cs",
@@ -1085,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 64,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Products\\IProductService.cs",
               "RelativeDocumentMoniker": "Products\\IProductService.cs",
@@ -1097,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 58,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -1109,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "ProductTag.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\ProductTag.cs",
               "RelativeDocumentMoniker": "Models\\ProductTag.cs",
@@ -1121,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 60,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
@@ -1133,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "Models\\ShoppingCartItem.cs",
@@ -1145,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 62,
               "Title": "Tags.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Tags.cs",
               "RelativeDocumentMoniker": "Models\\Tags.cs",
@@ -1157,7 +1301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 65,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Products\\ProductService.cs",
               "RelativeDocumentMoniker": "Products\\ProductService.cs",
@@ -1169,32 +1313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "RegisterDtoExtensions.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
-              "RelativeDocumentMoniker": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\Extensions\\RegisterDtoExtensions.cs",
-              "RelativeToolTip": "Mapper\\Extensions\\RegisterDtoExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T14:50:54.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAlwBoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T06:42:04.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "CheckoutController.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
@@ -1206,7 +1325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 67,
               "Title": "ProductRequestValidator.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\ProductRequestValidator.cs",
               "RelativeDocumentMoniker": "Validations\\ProductRequestValidator.cs",
@@ -1218,7 +1337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 68,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "UnitOfWork\\UnitOfWork.cs",
@@ -1230,7 +1349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 69,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "UnitOfWork\\IUnitOfWork.cs",
@@ -1242,7 +1361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 70,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
@@ -1254,7 +1373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 112,
               "Title": "20250930084617_ProfilePictureUpdate.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930084617_ProfilePictureUpdate.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930084617_ProfilePictureUpdate.cs",
@@ -1266,19 +1385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Categories\\CategoryService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\CategoryService.cs",
-              "RelativeToolTip": "Categories\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:55:50.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 71,
               "Title": "CategoryProfile.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\CategoryProfile.cs",
               "RelativeDocumentMoniker": "Mapper\\CategoryProfile.cs",
@@ -1290,19 +1397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "Categories\\ICategoryService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Categories\\ICategoryService.cs",
-              "RelativeToolTip": "Categories\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:55:41.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": "OrderItems.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\OrderItems.cs",
               "RelativeDocumentMoniker": "Models\\OrderItems.cs",
@@ -1314,19 +1409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
-              "RelativeDocumentMoniker": "Models\\Entity.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Entity.cs",
-              "RelativeToolTip": "Models\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:46:27.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "InvoiceItem.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\InvoiceItem.cs",
               "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
@@ -1338,7 +1421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -1350,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "InvoiceController.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Controllers\\InvoiceController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
@@ -1362,7 +1445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "RegisterException.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Exceptions\\RegisterException.cs",
               "RelativeDocumentMoniker": "Exceptions\\RegisterException.cs",
@@ -1375,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "LoginException.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Exceptions\\LoginException.cs",
               "RelativeDocumentMoniker": "Exceptions\\LoginException.cs",
@@ -1387,7 +1470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "ProductException.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Exceptions\\ProductException.cs",
               "RelativeDocumentMoniker": "Exceptions\\ProductException.cs",
@@ -1399,19 +1482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "RegisterDtoValidator.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\RegisterDtoValidator.cs",
-              "RelativeDocumentMoniker": "Validations\\RegisterDtoValidator.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\RegisterDtoValidator.cs",
-              "RelativeToolTip": "Validations\\RegisterDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:23:06.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "LoginDtoValidator.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Validations\\LoginDtoValidator.cs",
               "RelativeDocumentMoniker": "Validations\\LoginDtoValidator.cs",
@@ -1423,7 +1494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductRepository\\ProductRepository.cs",
@@ -1435,7 +1506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\ProductRepository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductRepository\\IProductRepository.cs",
@@ -1447,20 +1518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthServices\\AuthService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthServices\\AuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:04:30.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "ProductResponseDto.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\ProductResponseDto.cs",
               "RelativeDocumentMoniker": "Dtos\\ProductResponseDto.cs",
@@ -1472,31 +1530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "Mapper\\ProductProfile.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Mapper\\ProductProfile.cs",
-              "RelativeToolTip": "Mapper\\ProductProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T06:24:05.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthServices\\IAuthService.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Services\\AuthServices\\IAuthService.cs",
-              "RelativeToolTip": "Services\\AuthServices\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T08:04:43.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "Invoice.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "Models\\Invoice.cs",
@@ -1508,7 +1542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 113,
               "Title": "20250930054649_RemovalofIndexUsername.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250930054649_RemovalofIndexUsername.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250930054649_RemovalofIndexUsername.cs",
@@ -1520,7 +1554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 114,
               "Title": "20250930053928_RemovalofIndexUsername.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250930053928_RemovalofIndexUsername.cs",
               "RelativeDocumentMoniker": "Migrations\\20250930053928_RemovalofIndexUsername.cs",
@@ -1532,19 +1566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
-              "ToolTip": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T14:31:12.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 111,
               "Title": "20250930013938_AddedImageField.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250930013938_AddedImageField.cs",
               "RelativeDocumentMoniker": "Migrations\\20250930013938_AddedImageField.cs",
@@ -1556,7 +1578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 89,
               "Title": "20250929150405_LatestSchemaV2.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250929150405_LatestSchemaV2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250929150405_LatestSchemaV2.cs",
@@ -1567,7 +1589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 87,
               "Title": "20250929150600_LatestSchema.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250929150600_LatestSchema.cs",
               "RelativeDocumentMoniker": "Migrations\\20250929150600_LatestSchema.cs",
@@ -1579,7 +1601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 86,
               "Title": "TagBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\TagBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\TagBuilder.cs",
@@ -1591,7 +1613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 85,
               "Title": "ProductTagBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductTagBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductTagBuilder.cs",
@@ -1603,7 +1625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "ProductBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ProductBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ProductBuilder.cs",
@@ -1615,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 88,
               "Title": "20250913161322_LatestD.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913161322_LatestD.cs",
               "RelativeDocumentMoniker": "Migrations\\20250913161322_LatestD.cs",
@@ -1627,7 +1649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 90,
               "Title": "20250929150053_LatestSchema.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250929150053_LatestSchema.cs",
               "RelativeDocumentMoniker": "Migrations\\20250929150053_LatestSchema.cs",
@@ -1638,7 +1660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 91,
               "Title": "ShoppingCartBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ShoppingCartBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ShoppingCartBuilder.cs",
@@ -1650,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 92,
               "Title": "ShoppingCartItemBuilder.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\DbConfigurations\\ShoppingCartItemBuilder.cs",
               "RelativeDocumentMoniker": "Extensions\\DbConfigurations\\ShoppingCartItemBuilder.cs",
@@ -1662,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 93,
               "Title": "20250929142238_LatestDatabaseUpdates.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250929142238_LatestDatabaseUpdates.cs",
               "RelativeDocumentMoniker": "Migrations\\20250929142238_LatestDatabaseUpdates.cs",
@@ -1674,7 +1696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 95,
               "Title": "InvoiceItemRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
               "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\InvoiceItemRepository.cs",
@@ -1686,7 +1708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 94,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1698,7 +1720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 96,
               "Title": "IInvoiceItemRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
               "RelativeDocumentMoniker": "Repository\\InvoiceItemRepository\\IInvoiceItemRepository.cs",
@@ -1710,7 +1732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 97,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\GenericRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository\\IGenericRepository.cs",
@@ -1722,7 +1744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 98,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CategoryRepository\\CategoryRepository.cs",
@@ -1734,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 99,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\CategoryRepository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CategoryRepository\\ICategoryRepository.cs",
@@ -1746,7 +1768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 110,
               "Title": "IGoogleAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Authentication\\GoogleAuthentication\\IGoogleAuthenticationService.cs",
               "ToolTip": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\inventory\\inventory_backend\\Authentication\\GoogleAuthentication\\IGoogleAuthenticationService.cs",
@@ -1755,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 100,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -1767,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 109,
               "Title": "20250924085128_NewConfiguration.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250924085128_NewConfiguration.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250924085128_NewConfiguration.cs",
@@ -1779,7 +1801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 101,
               "Title": "inventory_backend",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
               "RelativeDocumentMoniker": "inventory_backend.csproj",
@@ -1790,7 +1812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 103,
               "Title": "global.json",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\global.json",
               "RelativeDocumentMoniker": "global.json",
@@ -1802,7 +1824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 102,
               "Title": "RegisterDtoExtensions.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Extensions\\RegisterDtoExtension\\RegisterDtoExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\RegisterDtoExtension\\RegisterDtoExtensions.cs",
@@ -1810,12 +1832,11 @@
               "RelativeToolTip": "Extensions\\RegisterDtoExtension\\RegisterDtoExtensions.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:11:10.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T14:11:10.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 107,
               "Title": "20250913141848_latestSystemMigrationIdentity.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\IdentityDb\\20250913141848_latestSystemMigrationIdentity.cs",
@@ -1827,7 +1848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 108,
               "Title": "20250913142702_latestSystemMigration.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142702_latestSystemMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20250913142702_latestSystemMigration.cs",
@@ -1839,7 +1860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 104,
               "Title": "20250913142605_latestSystemMigration.cs",
               "DocumentMoniker": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142605_latestSystemMigration.cs",
               "ToolTip": "C:\\Users\\kenne\\source\\repos\\tenekSumaylo\\StoreInventorySystem\\inventory_backend\\Migrations\\20250913142605_latestSystemMigration.cs",
@@ -1848,7 +1869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 105,
               "Title": "ProductTagRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\ProductTagRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\ProductTagRepository.cs",
@@ -1860,7 +1881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 106,
               "Title": "IProductTagRepository.cs",
               "DocumentMoniker": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\Repository\\ProductTagRepository\\IProductTagRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductTagRepository\\IProductTagRepository.cs",

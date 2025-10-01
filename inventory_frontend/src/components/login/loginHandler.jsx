@@ -7,11 +7,11 @@ const LoginHandler = async (props) => {
             UserLogin: props.username,
             Password: props.password
         });
-        if ( result === 200 ) {
-            return true;
+        if ( result.status === 200 ) {
+            return { status: result.status };
         }
         else {
-            console.log("Unsuccessful login");
+            return { status: result.status, errors: result.error};
         }
     }
     catch ( err ) {

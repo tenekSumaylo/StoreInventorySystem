@@ -1,9 +1,27 @@
+import { useEffect } from "react";
 import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
 import { VStack, Input, Button, Group, Flex, Card, Image, Text} from "@chakra-ui/react";
+import { LoginCheck } from "./../Api/LoginClient";
+import { useNavigate } from "react-router";
 const UnAuthorizedHome = () => {
+    const navigate = useNavigate();
+
+    useEffect( () => {
+        console.log("TABANG");
+        const check = async() => {
+            const res = await LoginCheck();
+            console.log("otin");
+            if ( res.status === 200 ) {
+                navigate("/AuthorizedUser");
+            }
+            console.log("otin");
+        }
+        check();
+    },[]);
+
     return(
         <>
-        <div className="bg-gray-100">
+        <div className="bg-gray-100 min-h-screen">
             <VStack gap="14" justifyItems="center" pb="5">
                 <UnAuthorizedHeader/>
                 <Group attached w="full" maxW="xl" bg="white">

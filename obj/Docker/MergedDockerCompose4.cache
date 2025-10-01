@@ -1,0 +1,60 @@
+name: dockercompose15198631374442501896
+services:
+  inventory_backend:
+    build:
+      context: D:\Programming Repository\StoreInventorySystem\inventory_backend
+      dockerfile: Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    networks:
+      storenetwork: null
+    ports:
+      - mode: ingress
+        target: 5166
+        published: "5166"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: C:\Users\kenne\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\kenne\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Strong@12345!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      storenetwork: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlvolume
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  storenetwork:
+    name: dockercompose15198631374442501896_storenetwork
+volumes:
+  sqlvolume:
+    name: dockercompose15198631374442501896_sqlvolume

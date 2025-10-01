@@ -11,7 +11,7 @@ using System.Runtime.CompilerServices;
 
 namespace inventory_backend.Authentication.BasicAuthentication
 {
-    public class BasicAuthenticationService : IAuthenticationService<LoginDto, RegisterDto>
+    public class BasicAuthenticationService : IBasicAuthenticationService
     {
         private readonly UserManager<ApplicationUser> _manager;
         private readonly ITokenService _tokenService;

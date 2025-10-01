@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "inventory_backend.Controllers.AuthController",
+    "Method": "CheckLogin",
+    "RelativePath": "api/Auth/Check",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.AuthController",
     "Method": "GoogleLogin",
     "RelativePath": "api/Auth/Google",
     "HttpMethod": "GET",

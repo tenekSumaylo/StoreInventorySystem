@@ -3,8 +3,11 @@ using inventory_backend.Authentication;
 using inventory_backend.Authentication.GoogleAuthentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
+using inventory_backend.Roles;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace inventory_backend.Controllers
 {
@@ -38,7 +41,13 @@ namespace inventory_backend.Controllers
                     throw new LoginException("Login dto is invalid...", validator);
                 }
                 var jwtToken = ( await _basicAuthenticationService.Login(dto) ) ?? throw new LoginException("Jwt token is invalid, and cannot be processed");
-                return Ok(new { jwtToken } );
+                Response.Cookies.Append("jwt-auth", jwtToken, new CookieOptions
+                {
+                    Secure = true,
+                    HttpOnly = true,
+                    Expires = DateTime.UtcNow.AddDays(1)
+                });
+                return Ok(new { Succeeded = jwtToken != null } );
             }
             catch (LoginException ex)
             {
@@ -117,7 +126,18 @@ namespace inventory_backend.Controllers
             {
                 return BadRequest( new { ex.Message, ex.StackTrace } );
             }
+        }
 
+        [HttpGet("Check")]
+        [Authorize]
+        public IActionResult CheckLogin()
+        {
+            var role = User.FindFirstValue(ClaimTypes.Role);
+            if ( role is null )
+            {
+                return BadRequest("Roles non existent");
+            }
+            return Ok( new { IsEmployee = role.Equals(AppRoles.Employee), IsCustomer = role.Equals(AppRoles.Customer)});
         }
     }
 }
