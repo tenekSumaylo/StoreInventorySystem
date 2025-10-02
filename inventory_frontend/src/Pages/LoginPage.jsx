@@ -4,7 +4,7 @@ import { FaGoogle } from "react-icons/fa";
 import { useState } from "react";
 import { LoginClient } from "./../Api/LoginClient";
 import { useNavigate } from "react-router";
-import LoginHandler from "./../components/login/loginHandler";
+import {LoginHandler} from "./../components/login/loginHandler";
 import { toaster, Toaster } from "./../components/ui/toaster";
 
 const LoginPage = () => {
@@ -26,10 +26,13 @@ const LoginPage = () => {
         if (result.status === 200) {
             toaster.create({
                 description: "Login Successful!",
-                type: "info",
+                type: "success",
                 closable: true
             });
-            navigate("/AuthorizedUser")
+            setTimeout(() => {
+                navigate("/AuthorizedUser")
+            }, 3000);
+
         }
         else {
             toaster.create({

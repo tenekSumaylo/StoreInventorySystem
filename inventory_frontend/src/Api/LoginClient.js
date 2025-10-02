@@ -25,6 +25,8 @@ export const LoginCheck = async() => {
     try {
         const result = await axiosClient.get("/Auth/Check")
         if ( result.status === 200 ) {
+            console.log("CHERKS");
+            console.log(`${result.status}--${result.data.isCustomer}--${result.data.isEmployee}`);
             return {
                 status: result.status,
                 isCustomer: result.data.isCustomer,
@@ -33,6 +35,7 @@ export const LoginCheck = async() => {
         }
     }
     catch (error) {
+        console.log("HELP");
         return { status: error.response.status };
     }
 

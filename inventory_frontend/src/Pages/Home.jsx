@@ -1,22 +1,27 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
 import { VStack, Input, Button, Group, Flex, Card, Image, Text} from "@chakra-ui/react";
 import { LoginCheck } from "./../Api/LoginClient";
 import { useNavigate } from "react-router";
+import { checkLogin } from "./../components/login/loginHandler";
 const UnAuthorizedHome = () => {
     const navigate = useNavigate();
+    const [products, setProducts] = useState([]);
 
     useEffect( () => {
-        console.log("TABANG");
-        const check = async() => {
-            const res = await LoginCheck();
-            console.log("otin");
-            if ( res.status === 200 ) {
+        checkLogin()
+        .then(response => {
+            console.log(`${response.status}`);
+            if (response.customer) {
                 navigate("/AuthorizedUser");
             }
-            console.log("otin");
-        }
-        check();
+            else if ( response.employee) {
+                navigate("/Employee");
+            }
+        })
+        .catch(error => {
+            console.log("no user found");
+        });
     },[]);
 
     return(

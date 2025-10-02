@@ -15,6 +15,7 @@ import AuthorizedHome from './Pages/AuthorizedHome'
 import ShoppingCartPage from './Pages/ShoppingCart'
 import { BrowserRouter, Routes } from 'react-router'
 import { Route } from 'react-router'
+import EmployeePage from './Pages/EmployeePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
             <Route path= {"/Register"} element={<RegisterPage/>}/>
             <Route path={"/Login"} element={<LoginPage/>}/>
             <Route path={"/AuthorizedUser"} element={ <AuthorizedHome/>}/>
+            <Route path="/Employee" element={<EmployeePage/>}/>
           </Routes>
         </div>
       </Provider>

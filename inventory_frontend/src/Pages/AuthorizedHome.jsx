@@ -1,6 +1,20 @@
+import { useEffect } from "react";
 import AuthorizedHeader from "./../components/layout/AuthorizedHeader";
 import { VStack, Input, Button, Group, Flex, Card, Image, Text} from "@chakra-ui/react";
+import { checkLogin } from "./../components/login/loginHandler";
+import { useNavigate } from "react-router";
 const AuthorizedHome = () => {
+    const navigate = useNavigate();
+    
+    useEffect(() => {
+         const result = checkLogin();
+         if (result.status === 200) {
+            if (result.employee) {
+                navigate("/employee");
+            } 
+         }
+    },[]);
+
     return(
         <>
         <div className="bg-gray-100">

@@ -9,9 +9,9 @@ namespace inventory_backend.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public IProductRepository ProductRepository { get; private set; }
-        public IInvoiceRepository InvoiceRepository { get; private set; }
-        public IInvoiceItemRepository InvoiceItemRepository { get; private set; }
+        public IProductRepository ProductRepository { get; init; }
+        public IInvoiceRepository InvoiceRepository { get; init; }
+        public IInvoiceItemRepository InvoiceItemRepository { get; init; }
         private readonly InventorySystemDbContext _context;
         
         public UnitOfWork(InventorySystemDbContext context)
