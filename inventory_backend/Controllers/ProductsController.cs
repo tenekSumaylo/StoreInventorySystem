@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
-using inventory_backend.Products;
 using inventory_backend.Repository.ProductRepository;
+using inventory_backend.Services.Products;
 using Microsoft.AspNetCore.Mvc;
 
 namespace inventory_backend.Controllers

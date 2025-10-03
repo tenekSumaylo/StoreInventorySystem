@@ -5,7 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace inventory_backend.TokenServices
+namespace inventory_backend.Services.TokenServices
 {
     public class TokenService : ITokenService
     {

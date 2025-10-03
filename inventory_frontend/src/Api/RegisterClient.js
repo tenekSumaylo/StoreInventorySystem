@@ -13,6 +13,6 @@ export const RegisterClient = async (registerInformation) => {
         return {
             status: err.response.status,
             error: err.response.data
-        }
+        };
     }
 }

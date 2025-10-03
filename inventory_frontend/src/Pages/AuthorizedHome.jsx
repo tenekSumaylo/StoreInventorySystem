@@ -13,6 +13,9 @@ const AuthorizedHome = () => {
                 navigate("/employee");
             } 
          }
+         else {
+            navigate("/");
+         }
     },[]);
 
     return(

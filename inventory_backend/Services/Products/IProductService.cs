@@ -1,7 +1,7 @@
 ﻿using inventory_backend.Dtos;
 using inventory_backend.Models;
 
-namespace inventory_backend.Products
+namespace inventory_backend.Services.Products
 {
     public interface IProductService
     {

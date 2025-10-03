@@ -1,0 +1,80 @@
+name: dockercompose950259792076711664
+services:
+  inventory_backend:
+    build:
+      context: C:\Users\TRAINEE-SUMAYLO\source\personal\StoreInventorySystem\inventory_backend
+      dockerfile: Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    networks:
+      storenetwork: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5166"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: C:\Users\TRAINEE-SUMAYLO\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\TRAINEE-SUMAYLO\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+  inventory_frontend_dev:
+    build:
+      context: C:\Users\TRAINEE-SUMAYLO\source\personal\StoreInventorySystem\inventory_frontend
+      dockerfile: Dockerfile.dev
+    develop:
+      watch:
+        - path: C:\Users\TRAINEE-SUMAYLO\source\personal\StoreInventorySystem
+          action: sync
+          target: /app
+    depends_on:
+      inventory_backend:
+        condition: service_started
+        required: true
+    networks:
+      storenetwork: null
+    ports:
+      - mode: ingress
+        target: 5173
+        published: "5173"
+        protocol: tcp
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Strong@12345!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      storenetwork: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlvolume
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  storenetwork:
+    name: dockercompose950259792076711664_storenetwork
+volumes:
+  sqlvolume:
+    name: dockercompose950259792076711664_sqlvolume

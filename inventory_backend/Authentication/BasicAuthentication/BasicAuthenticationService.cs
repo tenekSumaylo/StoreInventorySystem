@@ -5,7 +5,7 @@ using inventory_backend.Exceptions;
 using inventory_backend.Extensions.RegisterDtoExtension;
 using inventory_backend.Models.Users;
 using inventory_backend.Roles;
-using inventory_backend.TokenServices;
+using inventory_backend.Services.TokenServices;
 using Microsoft.AspNetCore.Identity;
 using System.Runtime.CompilerServices;
 

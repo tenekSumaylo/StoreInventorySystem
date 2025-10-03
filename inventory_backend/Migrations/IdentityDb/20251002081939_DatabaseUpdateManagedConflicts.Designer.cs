@@ -12,8 +12,8 @@ using inventory_backend.Data;
 namespace inventory_backend.Migrations.IdentityDb
 {
     [DbContext(typeof(IdentityDbContext))]
-    [Migration("20250930161256_NewDbGuid")]
-    partial class NewDbGuid
+    [Migration("20251002081939_DatabaseUpdateManagedConflicts")]
+    partial class DatabaseUpdateManagedConflicts
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,6 +1,6 @@
 ﻿using inventory_backend.Dtos;
 
-namespace inventory_backend.Categories
+namespace inventory_backend.Services.Categories
 {
     public interface ICategoryService
     {

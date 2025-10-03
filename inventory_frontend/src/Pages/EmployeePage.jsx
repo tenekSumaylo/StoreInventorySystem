@@ -17,10 +17,8 @@ const EmployeePage = () => {
                                 Search
                             </Button>
                         </form>
-
                     </Group>
                 </HStack>
-
             </Flex>
         </div>
 

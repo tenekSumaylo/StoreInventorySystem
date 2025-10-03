@@ -1,6 +1,6 @@
-﻿using inventory_backend.Categories;
-using inventory_backend.Data;
+﻿using inventory_backend.Data;
 using inventory_backend.Models;
+using inventory_backend.Services.Categories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +24,7 @@ namespace inventory_backend.Controllers
         {
             try
             {
-                return Ok(await _categoryService.GetAllCategories());
+                return Ok(new { categories = await _categoryService.GetAllCategories() });
             }
             catch (Exception ex)
             {

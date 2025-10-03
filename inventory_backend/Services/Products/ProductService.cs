@@ -3,7 +3,7 @@ using inventory_backend.Dtos;
 using inventory_backend.Models;
 using inventory_backend.Repository.ProductRepository;
 
-namespace inventory_backend.Products
+namespace inventory_backend.Services.Products
 {
     public class ProductService(IProductRepository _product, IMapper mapper) : IProductService
     {

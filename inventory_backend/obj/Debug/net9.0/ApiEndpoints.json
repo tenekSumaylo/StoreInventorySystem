@@ -143,5 +143,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.TagsController",
+    "Method": "GetAllTags",
+    "RelativePath": "api/Tags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

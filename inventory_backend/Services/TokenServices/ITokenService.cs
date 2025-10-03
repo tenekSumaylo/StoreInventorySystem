@@ -1,6 +1,6 @@
 ﻿using inventory_backend.Models.Users;
 
-namespace inventory_backend.TokenServices
+namespace inventory_backend.Services.TokenServices
 {
     public interface ITokenService
     {

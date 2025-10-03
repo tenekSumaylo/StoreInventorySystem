@@ -2,7 +2,7 @@
 using inventory_backend.Dtos;
 using inventory_backend.Repository.CategoryRepository;
 
-namespace inventory_backend.Categories
+namespace inventory_backend.Services.Categories
 {
     public class CategoryService(ICategoryRepository repo, IMapper mapper) : ICategoryService
     {

@@ -1,6 +1,5 @@
 using inventory_backend.Data;
 using inventory_backend.Models;
-using inventory_backend.Services.AuthServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

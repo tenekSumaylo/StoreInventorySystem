@@ -1,6 +1,7 @@
 ﻿using inventory_backend.Exceptions;
 using inventory_backend.Models.Users;
-using inventory_backend.TokenServices;
+using inventory_backend.Roles;
+using inventory_backend.Services.TokenServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
@@ -34,9 +35,10 @@ namespace inventory_backend.Authentication.GoogleAuthentication
                 Email = data.Principal.FindFirstValue(ClaimTypes.Email) ?? throw new RegisterException("Email is invalid"),
                 UserName = data.Principal.FindFirstValue(ClaimTypes.Email)
             };
+            var addRole = await _manager.AddToRoleAsync(user, AppRoles.Customer);
             var createAsync = await _manager.CreateAsync(user);
             var result = await _manager.AddLoginAsync(user, data);
-            return result.Succeeded && createAsync.Succeeded ? result : throw new RegisterException("Registration failed", result);
+            return result.Succeeded && createAsync.Succeeded  && addRole.Succeeded ? result : throw new RegisterException("Registration failed", result);
         }
 
         public async Task<string?> Login(Microsoft.AspNetCore.Authentication.AuthenticateResult data)
