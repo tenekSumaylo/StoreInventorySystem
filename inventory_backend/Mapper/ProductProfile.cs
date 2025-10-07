@@ -8,8 +8,9 @@ namespace inventory_backend.Mapper
     {
         public ProductProfile()
         {
-            CreateMap<ProductRequestDto, Product>();
+            CreateMap<ProductRequestDto, Product>().ForMember(dest => dest.Tags, opt => opt.MapFrom(src => src.Tags.Select(t => new ProductTag { Id = t.Id})));
             CreateMap<Product, ProductRequestDto>();
+            CreateMap<Product, ProductResponseDto>();
         }
     }
 }

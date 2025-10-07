@@ -88,7 +88,7 @@ namespace inventory_backend.Controllers
             var redirectUrl = Url.Action(
                     action: "GoogleCallBack",
                     controller: "Auth",
-                    values: new {ReturnUrl = "http://localhost:5166/swagger" }
+                    values: new {ReturnUrl = "http://localhost:5173/AuthorizedUser" }
             );
             var properties = _googleService.ConfigureExternal("Google", redirectUrl!);
             return new ChallengeResult("Google", properties);
@@ -116,7 +116,7 @@ namespace inventory_backend.Controllers
                     HttpOnly = true,
                     Expires = DateTime.UtcNow.AddDays(1)
                 });
-                return Ok("Login successful");
+                return Redirect("http://localhost:5173/AuthorizedUser");
             }
             catch ( LoginException ex )
             {

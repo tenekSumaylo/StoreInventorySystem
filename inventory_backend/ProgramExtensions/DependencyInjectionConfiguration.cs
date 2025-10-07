@@ -13,6 +13,14 @@ using inventory_backend.Services.TokenServices;
 using inventory_backend.Services.Categories;
 using inventory_backend.Services.Tags;
 using inventory_backend.Repository.TagsRepository;
+using inventory_backend.Repository.ShoppingCartItemRepository;
+using inventory_backend.Repository.ShoppingCartRepository;
+using inventory_backend.Services.ShoppingCartService;
+using inventory_backend.Services.ShoppingCartItemServices;
+using inventory_backend.Services.CheckoutServices;
+using inventory_backend.Repository.OrderRepository;
+using inventory_backend.Repository.OrderItemRepository;
+using inventory_backend.UnitOfWorkPattern;
 namespace inventory_backend.ProgramExtensions
 {
     public static class DependencyInjectionConfiguration
@@ -25,11 +33,19 @@ namespace inventory_backend.ProgramExtensions
             services.AddScoped<IGoogleAuthenticationService, GoogleAuthenticationService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
-            services.AddScoped<ITagService, TagService>();  
+            services.AddScoped<ITagService, TagService>();
+            services.AddScoped<IShoppingCartService, ShoppingCartService>();
+            services.AddScoped<IShoppingCartItemService, ShoppingCartItemService>();
+            services.AddScoped<ICheckoutServices, CheckoutServices>();
             // repositories
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ITagsRepository, TagsRepository>();
+            services.AddScoped<IShoppingCartItemRepository, ShoppingCartItemRepository>();
+            services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             // auto mapper
             services.AddAutoMapper(i =>
             {
@@ -38,6 +54,8 @@ namespace inventory_backend.ProgramExtensions
                 i.AddProfile<CustomerProfile>();
                 i.AddProfile<EmployeeProfile>();
                 i.AddProfile<TagProfile>();
+                i.AddProfile<ShoppingCartProfile>();
+                i.AddProfile<ShoppingCartItemProfile>();
             });
         }
     }

@@ -2,7 +2,7 @@ import { Box, Text, Field, Input, Button, useToastStyles } from "@chakra-ui/reac
 import UnAuthorizedHeader from "./../components/layout/UnAuthorizedHeader";
 import { FaGoogle } from "react-icons/fa";
 import { useState } from "react";
-import { LoginClient } from "./../Api/LoginClient";
+import { GoogleLogin, LoginClient } from "./../Api/LoginClient";
 import { useNavigate } from "react-router";
 import {LoginHandler} from "./../components/login/loginHandler";
 import { toaster, Toaster } from "./../components/ui/toaster";
@@ -42,7 +42,34 @@ const LoginPage = () => {
             });
             console.log("norwen");
         }
+    }
 
+    const handleGoogle = () => {
+        GoogleLogin()
+        .then(response => {
+            if ( response.status === 200 ) {
+            toaster.create({
+                description: "Login Successful!",
+                type: "success",
+                closable: true
+            });
+            setTimeout(() => {
+                navigate("/AuthorizedUser")
+            }, 3000);
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            toaster.create({
+                description: "Login Unsuccessful.",
+                type: "error",
+                closable: true
+            });
+        });
+    }
+
+    const handleGoogleV1 = () => {
+        window.location.href = window.location.hostname === "localhost" ? "http://localhost:5166/api/Auth/Google" : "http://192.168.0.198:5166/api/Auth/Google";
     }
 
     return(
@@ -79,7 +106,7 @@ const LoginPage = () => {
                 </form>
                 <Text color="blue.500" textDecoration="underline">Forgot your password?</Text>
                 <Text pt="3" mb="2">Or Login with</Text>
-                <FaGoogle size="24"/>
+                <FaGoogle onClick={handleGoogleV1} size="24"/>
             </Box>
         </div>
     );

@@ -13,6 +13,11 @@ namespace inventory_backend.Data
         public DbSet<InvoiceItem> InvoiceItems { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItems> OrderItems { get; set; }
+        public DbSet<Tags> Tags { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
         public InventorySystemDbContext(DbContextOptions<InventorySystemDbContext> options) : base(options)
         {
@@ -30,6 +35,7 @@ namespace inventory_backend.Data
             builder.Entity<ShoppingCartItem>().Configure();
             builder.Entity<Order>().Configure();
             builder.Entity<OrderItems>().Configure();
+            builder.Entity<Tags>().Configure();
         }
     }
 }

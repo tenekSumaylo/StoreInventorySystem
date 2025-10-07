@@ -11,7 +11,7 @@ export const GetAllKeywords = async () => {
     })
     .catch( error => {
         console.log(error);
-        return{ status: error.response.status};
+        return{ status: error.response.status };
     });
 }
 

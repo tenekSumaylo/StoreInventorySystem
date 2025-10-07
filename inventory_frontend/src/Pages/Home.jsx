@@ -13,6 +13,7 @@ const UnAuthorizedHome = () => {
         .then(response => {
             console.log(`${response.status}`);
             if (response.customer) {
+                console.log("identified customer");
                 navigate("/AuthorizedUser");
             }
             else if ( response.employee) {

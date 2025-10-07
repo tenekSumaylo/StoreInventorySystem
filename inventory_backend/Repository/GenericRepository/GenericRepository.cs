@@ -1,6 +1,7 @@
 ﻿using inventory_backend.Data;
 using inventory_backend.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 namespace inventory_backend.Repository.GenericRepository
 {
@@ -87,6 +88,12 @@ namespace inventory_backend.Repository.GenericRepository
                 throw new Exception(ex.Message, ex);
             }
 
+        }
+
+        public async Task<IEnumerable<TEntity>> PaginatedItems(int page = 1, int pageSize = 12, TEntity? status = null)
+        {
+            return await _dbSet.Skip( ( page-1 ) * pageSize)
+                .Take(pageSize).ToListAsync();
         }
     }
 }

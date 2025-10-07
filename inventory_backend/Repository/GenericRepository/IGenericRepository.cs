@@ -11,5 +11,6 @@ namespace inventory_backend.Repository.GenericRepository
         Task<TEntity> ReadById(Guid id);
         Task<bool> Delete(Guid id);
         Task<bool> SaveChangesAsync();
+        Task<IEnumerable<TEntity>> PaginatedItems(int page = 1, int pageSize = 12, TEntity? status = null);
     }
 }

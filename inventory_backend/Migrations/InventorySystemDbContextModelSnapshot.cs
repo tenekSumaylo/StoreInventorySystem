@@ -112,7 +112,7 @@ namespace inventory_backend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("inventory_backend.Models.OrderItems", b =>
@@ -206,7 +206,10 @@ namespace inventory_backend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ShoppingCart");
+                    b.HasIndex("CustomerId")
+                        .IsUnique();
+
+                    b.ToTable("ShoppingCarts");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.ShoppingCartItem", b =>
@@ -218,6 +221,11 @@ namespace inventory_backend.Migrations
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("Quantity")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
                     b.Property<Guid>("ShoppingCartId")
                         .HasColumnType("uniqueidentifier");
 
@@ -227,7 +235,7 @@ namespace inventory_backend.Migrations
 
                     b.HasIndex("ShoppingCartId");
 
-                    b.ToTable("ShoppingCartItem");
+                    b.ToTable("ShoppingCartItems");
                 });
 
             modelBuilder.Entity("inventory_backend.Models.Tags", b =>

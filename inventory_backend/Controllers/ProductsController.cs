@@ -50,5 +50,36 @@ namespace inventory_backend.Controllers
                 return BadRequest(new { ex.Message, ex.InnerException });
             }
         }
+
+        [HttpGet("PaginatedProducts")]
+
+        public async Task<IActionResult> GetPaginatedProducts(string? searchParam, int page = 1, int pageSize = 12, ProductRequestDto? dto = null)
+        {
+            try
+            {
+                return Ok(await _productService.GetProducts(searchParam, page, pageSize, dto));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ex.Message, ex.InnerException });
+            }
+        }
+
+        [HttpPut("{Id}")]
+        public async Task<IActionResult> UpdateProduct(Guid Id)
+        {
+            try
+            {
+                //if ( await _productService.UpdateProduct(Id, dto) )
+                //{
+                  //  return Ok(true);
+                //}
+                throw new Exception("Failed to update the item");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ex.Message, ex.InnerException });
+            }
+        }
     }
 }

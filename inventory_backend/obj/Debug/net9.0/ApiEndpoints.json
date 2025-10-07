@@ -93,6 +93,22 @@
     ]
   },
   {
+    "ContainingType": "inventory_backend.Controllers.CheckoutController",
+    "Method": "CheckoutItems",
+    "RelativePath": "api/Checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.CheckoutRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "inventory_backend.Controllers.InvoiceController",
     "Method": "Add",
     "RelativePath": "api/Invoice",
@@ -139,6 +155,126 @@
       {
         "Name": "dto",
         "Type": "inventory_backend.Dtos.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.ProductRequestDtoV1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ProductsController",
+    "Method": "GetPaginatedProducts",
+    "RelativePath": "api/Products/PaginatedProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParam",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.ProductRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ShoppingCartController",
+    "Method": "AddShoppingCart",
+    "RelativePath": "api/ShoppingCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ShoppingCartController",
+    "Method": "GetShoppingCart",
+    "RelativePath": "api/ShoppingCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ShoppingCartItemController",
+    "Method": "AddCartItem",
+    "RelativePath": "api/ShoppingCartItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.ShoppingCartItemRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ShoppingCartItemController",
+    "Method": "DeleteItemFromShoppingCart",
+    "RelativePath": "api/ShoppingCartItem",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.DeleteCartItemRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.ShoppingCartItemController",
+    "Method": "UpdateItemQuantity",
+    "RelativePath": "api/ShoppingCartItem/ItemQuantity",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.UpdateCartItemRequestDto",
         "IsRequired": true
       }
     ],

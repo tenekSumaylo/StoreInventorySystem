@@ -22,6 +22,11 @@ namespace inventory_backend.Authentication.GoogleAuthentication
             var emailResult = await _manager.FindByEmailAsync(data.Principal.FindFirstValue(ClaimTypes.Email)!);
             if ( emailResult is not null )
             {
+                var login = _manager.FindByLoginAsync(data.LoginProvider, data.ProviderKey);
+                if ( login is null )
+                {
+                    await _manager.AddLoginAsync(emailResult, data);
+                }
                 return IdentityResult.Failed( new IdentityError
                 {
                     Code = "User already exists",

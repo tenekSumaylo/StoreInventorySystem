@@ -40,3 +40,17 @@ export const LoginCheck = async() => {
     }
 
 }
+
+
+export const GoogleLogin = async () => {
+    try {
+        const result = await axiosClient.get("/Auth/Google");
+        if ( result.status === 200 ) {
+            return { status: result.status} ;
+        }
+    }
+    catch (error) {
+        console.log(error);
+        return { status: result.status };
+    }
+}

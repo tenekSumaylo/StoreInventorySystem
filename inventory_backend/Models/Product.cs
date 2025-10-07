@@ -12,9 +12,9 @@ namespace inventory_backend.Models
         public double Price { get;set; }
         public int Stock { get; set; }
         public byte[]? ProductImage { get; set; }
-        public ICollection<ProductTag>? Tags { get; set; } 
+        public ICollection<ProductTag> Tags { get; set; } = new List<ProductTag>();
 
         // for cart item
-        public ICollection<ShoppingCartItem>? CartItems { get; set; }
+        public ICollection<ShoppingCartItem> CartItems { get; set; } = new List<ShoppingCartItem>();
     }
 }

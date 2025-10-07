@@ -1,24 +1,73 @@
-const itemCard = (id, title, description, price, image) => {
+import { AddShoppingCartItemApi } from "./../../Api/ShoppingCartClient";
+import { Card, Button, Image, Text } from "@chakra-ui/react";
+import { Toaster, toaster } from "./../../components/ui/toaster";
+import { useEffect } from "react";
+import { Navigate, useNavigate } from "react-router";
+export const ItemCard = (props) => {
+    const navigate = useNavigate();
+    const addToCart = () => {
+        AddShoppingCartItemApi({
+            productId: props.productId,
+            shoppingCartId: props.shoppingCartId
+        }).
+        then(response => {
+            if ( response.status === 200 ) {
+                toaster.create({
+                    description: "Added To Cart Successfully",
+                    type: "success",
+                    closable: true
+                });
+            }
+            else {
+                toaster.create({
+                description: "Failed to add to cart",
+                type: "error",
+                closable: true
+            });
+            }
+        })
+        .catch(error => {
+            toaster.create({
+                description: "Failed to add to cart",
+                type: "error",
+                closable: true
+            });
+        });
+    }
+
+    const handleBuy = () => {
+        AddShoppingCartItemApi({
+            productId: props.productId,
+            shoppingCartId: props.shoppingCartId
+        });
+        navigate("/ShoppingCart");
+    }
+
     // get api 
     return (
-        <Card.Root maxW="sm" overflow="hidden">
+        <Card.Root maxW="sm" overflow="hidden"
+            maxWidth="calc(25%-1rem)">
         <Image
-            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-            alt="Green double couch with wooden legs"
+            src={`data:image/jpeg;base64,${props.productImage}`}
+            onError={(e) => e.target.src = `data:image/png;base64,${props.productImage}`}
+            alt="Product Picture"
+            width="100%"
+            height="120px"
+            objectFit="contain"
+            p="2"
         />
         <Card.Body gap="2">
-            <Card.Title>Living room Sofa</Card.Title>
+            <Card.Title>{props.productName}</Card.Title>
             <Card.Description>
-            This sofa is perfect for modern tropical spaces, baroque inspired
-            spaces.
+                {props.brand}
             </Card.Description>
             <Text textStyle="2xl" fontWeight="medium" letterSpacing="tight" mt="2">
-            $450
+            ${props.price}
             </Text>
         </Card.Body>
         <Card.Footer gap="2">
-            <Button variant="solid">Buy now</Button>
-            <Button variant="ghost">Add to cart</Button>
+            <Button variant="solid" onClick={handleBuy}>Buy now</Button>
+            <Button variant="ghost" onClick={addToCart} >Add to cart</Button>
         </Card.Footer>
         </Card.Root>
     );

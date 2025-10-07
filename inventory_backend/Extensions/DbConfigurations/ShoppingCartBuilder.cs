@@ -10,6 +10,7 @@ namespace inventory_backend.Extensions.DbConfigurations
             modelBuilder.HasKey( x => x.Id );
             modelBuilder.HasMany(i => i.CartItems).WithOne(x => x.Cart).HasForeignKey(f => f.ShoppingCartId);
             modelBuilder.Property(b => b.CustomerId).IsRequired();
+            modelBuilder.HasIndex(x  => x.CustomerId).IsUnique();
         }
     }
 }

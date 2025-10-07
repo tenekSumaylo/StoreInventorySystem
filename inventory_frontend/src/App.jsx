@@ -12,10 +12,10 @@ import UnAuthorizedHome from './Pages/Home'
 import RegisterPage from './Pages/Register'
 import LoginPage from './Pages/LoginPage'
 import AuthorizedHome from './Pages/AuthorizedHome'
-import ShoppingCartPage from './Pages/ShoppingCart'
 import { BrowserRouter, Routes } from 'react-router'
 import { Route } from 'react-router'
 import EmployeePage from './Pages/EmployeePage'
+import ShoppingCart from './Pages/ShoppingCart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +30,7 @@ function App() {
             <Route path={"/Login"} element={<LoginPage/>}/>
             <Route path={"/AuthorizedUser"} element={ <AuthorizedHome/>}/>
             <Route path="/Employee" element={<EmployeePage/>}/>
+            <Route path="/ShoppingCart" element={<ShoppingCart/>}/>
           </Routes>
         </div>
       </Provider>
