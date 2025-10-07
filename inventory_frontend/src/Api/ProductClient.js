@@ -50,7 +50,7 @@ export const UpdateProductApi = async (id, item) => {
         console.log("the item");
         console.log(id);
         console.log(item);
-        const result = await axiosClient.put(`/Products/${id}`);
+        const result = await axiosClient.put(`/Products/${id}`, item);
         if ( result.status === 200 ) {
             return {status: result.status};
         }

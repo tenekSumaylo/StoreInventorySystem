@@ -175,7 +175,7 @@
       },
       {
         "Name": "dto",
-        "Type": "inventory_backend.Dtos.ProductRequestDtoV1",
+        "Type": "inventory_backend.Dtos.ProductRequestDto",
         "IsRequired": true
       }
     ],

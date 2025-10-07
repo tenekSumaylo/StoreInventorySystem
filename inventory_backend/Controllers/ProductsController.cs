@@ -66,14 +66,14 @@ namespace inventory_backend.Controllers
         }
 
         [HttpPut("{Id}")]
-        public async Task<IActionResult> UpdateProduct(Guid Id)
+        public async Task<IActionResult> UpdateProduct(Guid Id, ProductRequestDto dto)
         {
             try
             {
-                //if ( await _productService.UpdateProduct(Id, dto) )
-                //{
-                  //  return Ok(true);
-                //}
+                if ( await _productService.UpdateProduct(Id, dto) )
+                {
+                    return Ok(true);
+                }
                 throw new Exception("Failed to update the item");
             }
             catch (Exception ex)
