@@ -122,7 +122,7 @@ export const AddItemDialog = () => {
                                 <div className="flex flex-row" >
                                         <Box  w="100%" h="full" spaceY={5} display="flex" flexDirection="column" alignItems="center">
                                             <FileUpload.Root maxW="xl" 
-                                            
+                        
                                             alignItems="stretch" maxFiles={1} 
                                                 accept="image/*"
                                                 onFileChange={ async (e) => {
@@ -157,6 +157,7 @@ export const AddItemDialog = () => {
                                             width="sm"
                                             onValueChange={handleValueChange}
                                             multiple
+                                            value={tags}
                                             >
                                             <Combobox.Label>Select Keyword</Combobox.Label>
                                             <Combobox.Control>

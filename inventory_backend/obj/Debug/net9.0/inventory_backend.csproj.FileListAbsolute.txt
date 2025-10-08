@@ -710,3 +710,4 @@ D:\Programming Repository\StoreInventorySystem\inventory_backend\obj\Debug\net9.
 D:\Programming Repository\StoreInventorySystem\inventory_backend\obj\Debug\net9.0\ref\inventory_backend.dll
 C:\Users\TRAINEE-SUMAYLO\source\personal\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\AutoMapper.dll
 D:\Programming Repository\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\TRAINEE-SUMAYLO\source\personal\StoreInventorySystem\inventory_backend\bin\Debug\net9.0\Marvin.Cache.Headers.dll
