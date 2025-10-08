@@ -9,9 +9,9 @@ namespace inventory_backend.Repository.ShoppingCartItemRepository
     {
         public ShoppingCartItemRepository(InventorySystemDbContext context) : base(context) { }
 
-        public async Task<IEnumerable<ShoppingCartItem>> CheckExistingCartItem(Guid productId)
+        public async Task<IEnumerable<ShoppingCartItem>> CheckExistingCartItem(Guid productId, Guid shoppingCartId)
         {
-            return (await _dbSet.Where(i => i.ProductId.Equals(productId))
+            return (await _dbSet.Where(i => i.ProductId.Equals(productId) && i.ShoppingCartId.Equals(shoppingCartId))
                 .Include(x => x.Product).ToListAsync());
         }
 

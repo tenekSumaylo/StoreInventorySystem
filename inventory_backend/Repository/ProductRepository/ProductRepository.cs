@@ -13,9 +13,18 @@ namespace inventory_backend.Repository.ProductRepository
         {
             if ( searchParams is not null )
             {
-                return await _dbSet.Where(i => i.ProductName.Contains(searchParams)).Skip((page - 1) * pageSize).Include(x => x.Tags).ThenInclude(x => x.Tag).Take(pageSize).ToListAsync();
+                return await _dbSet.Where(i => i.ProductName.Contains(searchParams))
+                    .Skip((page - 1) * pageSize)
+                    .Include(x => x.Tags)
+                    .ThenInclude(x => x.Tag)
+                    .Take(pageSize)
+                    .ToListAsync();
             }
-            return await _dbSet.Include(x => x.Tags).ThenInclude(x => x.Tag).Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+            return await _dbSet.Include(x => x.Tags)
+                .ThenInclude(x => x.Tag)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
         }
 
         public async Task<IEnumerable<Product>> ReadWithTags()

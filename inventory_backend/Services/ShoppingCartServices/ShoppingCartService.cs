@@ -40,7 +40,15 @@ namespace inventory_backend.Services.ShoppingCartService
 
         public async Task<ShoppingCartResponseDto> GetShoppingCart(Guid customerId)
         {
-            return (await _shoppingCartRepository.ReadyShoppingCartWithItems(customerId)).ToDto();
+            try
+            {
+                return (await _shoppingCartRepository.ReadyShoppingCartWithItems(customerId)).ToDto();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message, ex.InnerException);
+            }
+
         }
 
 

@@ -1,5 +1,6 @@
 import { Box, Button, List } from "@chakra-ui/react";
 import AuthorizedDrawer from "./SideDrawer";
+import { Link } from "react-router";
 const AuthorizedHeader = () => {
     return(
         <Box h="14" 
@@ -13,9 +14,12 @@ const AuthorizedHeader = () => {
         gap="5"> 
             <List.Root display="flex" flexDirection="row" listStyleType="none" gap="5">
                 <List.Item>
-                    <Button color="black" height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white">
-                        Home
-                    </Button>
+                    <Link to="/AuthorizedUser">
+                        <Button color="black" height="14" width="20" _hover={ {color: "black", fontWeight: "bold"}} bg="white">
+                            Home
+                        </Button>
+                    </Link>
+
                 </List.Item>
                 <List.Item>
                     <Button height="14" width="20">

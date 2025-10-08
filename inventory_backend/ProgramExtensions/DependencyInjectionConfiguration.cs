@@ -21,6 +21,8 @@ using inventory_backend.Services.CheckoutServices;
 using inventory_backend.Repository.OrderRepository;
 using inventory_backend.Repository.OrderItemRepository;
 using inventory_backend.UnitOfWorkPattern;
+using inventory_backend.Repository.GenericRepository;
+using inventory_backend.Models;
 namespace inventory_backend.ProgramExtensions
 {
     public static class DependencyInjectionConfiguration
@@ -28,7 +30,7 @@ namespace inventory_backend.ProgramExtensions
         public static void ConfigureDependencyInjection(this IServiceCollection services)
         {
             // services
-            services.AddScoped<IAuthenticationService<LoginDto, RegisterDto>, BasicAuthenticationService>();
+            services.AddScoped<IBasicAuthenticationService, BasicAuthenticationService>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IGoogleAuthenticationService, GoogleAuthenticationService>();
             services.AddScoped<IProductService, ProductService>();
@@ -46,6 +48,8 @@ namespace inventory_backend.ProgramExtensions
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IOrderItemRepository, OrderItemRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddHttpCacheHeaders();
             // auto mapper
             services.AddAutoMapper(i =>
             {

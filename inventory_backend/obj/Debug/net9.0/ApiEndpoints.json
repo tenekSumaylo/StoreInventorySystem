@@ -62,8 +62,34 @@
   },
   {
     "ContainingType": "inventory_backend.Controllers.AuthController",
+    "Method": "LogOut",
+    "RelativePath": "api/Auth/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.AuthController",
     "Method": "Register",
     "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "inventory_backend.Dtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inventory_backend.Controllers.AuthController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Auth/Register-Admin",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

@@ -1,6 +1,8 @@
 import { Avatar, AvatarGroup, Button, Drawer, Flex, HStack, Icon, List, Portal, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { Home, HomeIcon, ListIcon, ShoppingCart, UserRound } from "lucide-react";
+import { Link } from "react-router";
+import { LogoutApi } from "./../../Api/LoginClient";
 
 const AuthorizedDrawer = () => {
     const[openCloseStatus, setStatus] = useState(false);
@@ -21,10 +23,9 @@ const AuthorizedDrawer = () => {
                         <Drawer.Header>
                             <Drawer.Title flex>
                                 <Flex gap={0} align="center">
-                                    <Text color="white">
-                                        Porn
+                                    <Text color="black">
+                                        Store Inventory System
                                     </Text>
-                                    <Text bg="orange.500" color="black">Hub</Text>
                                 </Flex>
                             </Drawer.Title>
                         </Drawer.Header>
@@ -59,11 +60,29 @@ const AuthorizedDrawer = () => {
                                             </Icon>
                                             <span>Home</span>
                                         </List.Item>
-                                            <List.Item color="Black" spaceX="3" _hover={ {color: 'orange.500'}}>
-                                            <Icon>
-                                                <ShoppingCart/>
-                                            </Icon>
-                                            <span>Cart</span>
+                                        <List.Item color="Black" spaceX="3" _hover={ {color: 'orange.500'}}>
+                                            <Link to="/ShoppingCart">
+                                                <Icon>
+                                                    <ShoppingCart/>
+                                                </Icon>
+                                                <span>Cart</span>
+                                            </Link>
+                                        </List.Item>
+                                        <List.Item color="Black" spaceX="3" _hover={ {color: 'orange.500'}}>
+                                            <Link to="/" onClick={async () => {
+                                                await LogoutApi()
+                                                .then(response => {
+                                                    console.log(response);
+                                                })
+                                                .catch(error => {
+                                                    console.log(error);
+                                                });
+                                            }}>
+                                                <Icon>
+                                                    <ShoppingCart/>
+                                                </Icon>
+                                                <span>Logout</span>
+                                            </Link>
                                         </List.Item>
                                     </List.Root>
                                 </div>

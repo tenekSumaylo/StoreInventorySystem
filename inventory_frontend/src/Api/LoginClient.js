@@ -41,6 +41,24 @@ export const LoginCheck = async() => {
 
 }
 
+export const LogoutApi = async () => {
+    try {
+        const result = await axiosClient.post("/Auth/Logout");
+        return {status: result.status};
+    }
+    catch (error) {
+        if ( error.response ) {
+            return {status: error.response.status};
+        }
+        else if (error.request) {
+            return {status: 0};
+        }
+        else {
+            return {status: -1};
+        }
+    }
+}
+
 
 export const GoogleLogin = async () => {
     try {

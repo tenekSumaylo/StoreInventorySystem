@@ -29,6 +29,7 @@ const RegisterPage = () => {
             email: email,
             dateOfBirth: dob.toISOString().split("T")[0]
         }
+        console.log(registerInformation);
         const result = await RegisterClient(registerInformation);
         if ( result.status === 200 ) {
             toaster.create({

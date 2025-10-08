@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using inventory_backend.Authentication;
+using inventory_backend.Authentication.BasicAuthentication;
 using inventory_backend.Authentication.GoogleAuthentication;
 using inventory_backend.Dtos;
 using inventory_backend.Exceptions;
@@ -15,12 +16,12 @@ namespace inventory_backend.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IAuthenticationService<LoginDto, RegisterDto> _basicAuthenticationService;
+        private readonly IBasicAuthenticationService _basicAuthenticationService;
         private readonly IGoogleAuthenticationService _googleService;
         private readonly IValidator<LoginDto> _loginValidator;
         private readonly IValidator<RegisterDto> _registerValidator;
 
-        public AuthController( IValidator<LoginDto> loginValidator, IAuthenticationService<LoginDto, RegisterDto> basicService
+        public AuthController( IValidator<LoginDto> loginValidator, IBasicAuthenticationService basicService
             , IValidator<RegisterDto> registerValidator,
             IGoogleAuthenticationService service)
         {
@@ -82,6 +83,29 @@ namespace inventory_backend.Controllers
             }
         }
 
+        [HttpPost("Register-Admin")]
+        public async Task<IActionResult> RegisterAdmin(RegisterDto dto)
+        {
+            try
+            {
+                if (_registerValidator.Validate(dto) is FluentValidation.Results.ValidationResult validationResult
+                    && !validationResult.IsValid)
+                {
+                    throw new RegisterException("Register data has invalid fields", validationResult);
+                }
+                var result = await _basicAuthenticationService.CreateAdmin(dto);
+                return Ok(new { result.Succeeded, Message = "Registration Successful" });
+            }
+            catch (RegisterException ex)
+            {
+                return BadRequest(ex.IdentityResult?.Errors is null ? new { ex.ValidationResult!.Errors } : new { ex.IdentityResult.Errors });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { ex.Message });
+            }
+        }
+
         [HttpGet("Google")]
         public IActionResult GoogleLogin()
         {
@@ -138,6 +162,13 @@ namespace inventory_backend.Controllers
                 return BadRequest("Roles non existent");
             }
             return Ok( new { IsEmployee = role.Equals(AppRoles.Employee), IsCustomer = role.Equals(AppRoles.Customer)});
+        }
+
+        [HttpPost("Logout")]
+        public IActionResult LogOut()
+        {
+            Response.Cookies.Delete("jwt-auth");
+            return Ok();
         }
     }
 }

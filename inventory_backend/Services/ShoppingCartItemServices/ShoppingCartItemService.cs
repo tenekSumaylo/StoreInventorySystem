@@ -16,7 +16,7 @@ namespace inventory_backend.Services.ShoppingCartItemServices
         {
             try {
                 var entityShoppingCart = _mapper.Map<ShoppingCartItem>(dto);
-                var shoppingCartItemSearch = await _cartItemRepository.CheckExistingCartItem(entityShoppingCart.ProductId);
+                var shoppingCartItemSearch = await _cartItemRepository.CheckExistingCartItem(entityShoppingCart.ProductId, entityShoppingCart.ShoppingCartId);
                 if ( shoppingCartItemSearch.FirstOrDefault() is not null)
                 {
                     var item = shoppingCartItemSearch.First();

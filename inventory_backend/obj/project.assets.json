@@ -108,6 +108,18 @@
           }
         }
       },
+      "Marvin.Cache.Headers/7.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Marvin.Cache.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Marvin.Cache.Headers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Google/9.0.9": {
         "type": "package",
         "compile": {
@@ -1929,6 +1941,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Marvin.Cache.Headers/7.2.0": {
+      "sha512": "Oth02BbD/kYpv/lbH8wHUIn4PR5Gf2r8Ff43NBFxfGYnS257++bsgKxic/24lqOLkyaS2oPcZ+P2pxIbk5tjwA==",
+      "type": "package",
+      "path": "marvin.cache.headers/7.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Marvin.Cache.Headers.dll",
+        "lib/net7.0/Marvin.Cache.Headers.dll",
+        "lib/net8.0/Marvin.Cache.Headers.dll",
+        "marvin.cache.headers.7.2.0.nupkg.sha512",
+        "marvin.cache.headers.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Google/9.0.9": {
@@ -5281,6 +5308,7 @@
       "AutoMapper >= 15.0.1",
       "FluentValidation >= 12.0.0",
       "FluentValidation.DependencyInjectionExtensions >= 12.0.0",
+      "Marvin.Cache.Headers >= 7.2.0",
       "Microsoft.AspNetCore.Authentication.Google >= 9.0.9",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.8",
@@ -5294,23 +5322,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kenne\\.nuget\\packages\\": {},
+    "C:\\Users\\TRAINEE-SUMAYLO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
+      "projectUniqueName": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
       "projectName": "inventory_backend",
-      "projectPath": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
-      "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming Repository\\StoreInventorySystem\\inventory_backend\\obj\\",
+      "projectPath": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\StoreInventorySystem\\inventory_backend\\inventory_backend.csproj",
+      "packagesPath": "C:\\Users\\TRAINEE-SUMAYLO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TRAINEE-SUMAYLO\\source\\personal\\StoreInventorySystem\\inventory_backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TRAINEE-SUMAYLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5354,6 +5382,10 @@
           "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",
             "version": "[12.0.0, )"
+          },
+          "Marvin.Cache.Headers": {
+            "target": "Package",
+            "version": "[7.2.0, )"
           },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",

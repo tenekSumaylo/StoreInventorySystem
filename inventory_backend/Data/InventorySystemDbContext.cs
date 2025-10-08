@@ -13,11 +13,11 @@ namespace inventory_backend.Data
         public DbSet<InvoiceItem> InvoiceItems { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<Order> Order { get; set; }
         public DbSet<OrderItems> OrderItems { get; set; }
         public DbSet<Tags> Tags { get; set; }
-        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
-        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+        public DbSet<ShoppingCart> ShoppingCart { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItem { get; set; }
 
         public InventorySystemDbContext(DbContextOptions<InventorySystemDbContext> options) : base(options)
         {
